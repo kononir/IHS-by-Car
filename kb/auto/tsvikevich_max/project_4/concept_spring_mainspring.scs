@@ -1,0 +1,15 @@
+concept_spring_mainspring
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_spring;;
+        ->concept_spring_post;;
+*);;
+=> nrel_main_idtf: [Опр.(пружинная рессора)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [пружинная рессора - тип рессоры, в которой в качестве рабочего упругого элемента используется пружина.](*<-lang_ru;;*);; 
+*);; 
+*);;

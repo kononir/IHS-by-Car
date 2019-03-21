@@ -1,0 +1,78 @@
+concept_suspension_type <= nrel_subdividing: ...
+(*
+->concept_front_suspension;;  
+->concept_rear_suspension;;
+=> nrel_main_idtf: [Разбиение по признаку распложение в автомобиле](* <- lang_ru;; *);;
+*);;
+
+concept_suspension_type <= nrel_subdividing: ...
+(*
+->concept_dependent_suspension;;  
+->concept_independent_suspension;;
+=> nrel_main_idtf: [Разбиение по признаку принципа работы](* <- lang_ru;; *);;
+*);;
+
+concept_suspension_type <- rrel_key_sc_element: ...
+(*
+<- definition;;
+<= nrel_used_constants: ... 
+	(*
+		->concept_detail;; 
+		->concept_car_node;;
+		->concept_device;;
+		->concept_car;; 
+		->concept_car_connecting_link;;
+		->concept_road;;
+		->concept_car_body;;
+	*);;
+=> nrel_main_idtf: [Опр.(тип подвески)](*<-lang_ru;;*);; 
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [Совокупность деталей, узлов и механизмов автомобиля, играющих роль соединительного звена между кузовом автомобиля и дорогой.](*<-lang_ru;;*);; 
+	*);; 
+*);;	
+
+concept_suspension_type <- rrel_key_sc_element: ...
+	(*
+	->rrel_key_sc_element: nrel_composite_part; concept_chassis; concept_car;;
+	<-statement;;
+	<=nrel_sc_text_translation: ... 
+		(* 
+			-> rrel_example: [Подвеска входит в состав ходовой части автомобиля.](*<-lang_ru;;*);;
+		*);;
+	=>nrel_main_idtf: [Утв.(тип подвески автомобиля, составная частья*, ходовая часть, автомобиль)](*<-lang_ru;;*);;
+	<-rrel_axiom:concept_IHS_by_car;;
+	<-concept_general_form_statement;;
+	*);
+...	 
+	(*
+	->rrel_key_sc_element: nrel_composite_part; rrel_direct_element; rrel_elastic_element; rrel_damping_device; concept_stabilizer_bar; concept_wheel_support; rrel_securing_element;;
+	<-statement;;
+	<=nrel_sc_text_translation: ... 
+		(* 
+			-> rrel_example: [Подвеска автомобиля состоит из направляющих и упругих элементов, гасящего устройства, стабилизатора поперечной устойчивости, опоры колеса, а также элементов крепления.](*<-lang_ru;;*);;
+		*);;
+	=>nrel_main_idtf: [Утв.(подвеска автомобиля, составная часть*, направляющий элемент', упругий элемент', гасящее устройство', стабилизатор поперечной устойчивости, опора колеса, элемент крепления')](*<-lang_ru;;*);;
+	<-rrel_axiom:concept_IHS_by_car;;
+	<-concept_general_form_statement;;
+	*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_suspension_type;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/concept_suspension_type.png";;
+		*);;
+	*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_suspension_type;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/suspension_type.png";;
+		*);;
+	*);;
+
+	

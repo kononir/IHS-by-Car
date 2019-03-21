@@ -1,0 +1,35 @@
+sc_node_not_relation -> concept_supporting_pin_pads;;
+concept_supporting_pin_pads => nrel_main_idtf:
+[опорные пальцы колодки](*<-lang_ru;;*);
+     [supporting pin pads](*<-lang_en;;*);;
+concept_supporting_pin_pads => nrel_idtf:
+[опорные пальцы колодок](*<-lang_ru;;*);
+[опорные пальцы](*<-lang_ru;;*);;
+
+concept_supporting_pin_pads <-rrel_key_sc_element: ...
+(*
+<- definition;;
+<=nrel_used_constants: ... 
+	(*
+		->concept_brake_pad;; 
+	*);;
+=> nrel_main_idtf: [Опр.(опорные пальцы колодки)](*<-lang_ru;;*);; 
+<= nrel_sc_text_translation:...
+(* 
+		-> rrel_example:
+		[<b>Опорные пальцы колодки</b> - элемент, удерживающий <sc_element sys_idtf="concept_brake_pad">тормозные колодки</sc_element>.](*<-lang_ru;; => nrel_format: format_html;;*);; 
+*);; 
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_supporting_pin_pads;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/concept_supporting_pin_pads.jpg";;
+		*);;
+	*);;
+
+
+
+

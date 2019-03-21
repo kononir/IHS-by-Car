@@ -1,0 +1,63 @@
+sc_node_norole_relation -> nrel_transmission_principle_of_operations;; 
+nrel_transmission_principle_of_operations => nrel_main_idtf:
+[принцип переключения трансмиссии*](*<-lang_ru;;*);
+	[transmission principle of operations*](*<-lang_en;;*);;
+sc_node_norole_relation -> nrel_gear_shift;; 
+nrel_gear_shift => nrel_main_idtf:
+[переключение передачи*](*<-lang_ru;;*);
+	[gear shift*](*<-lang_en;;*);;
+
+nrel_transmission_principle_of_operations <- rrel_key_sc_element: ...
+(*
+<- definition;;
+<= nrel_using_constants: ... 
+	(*
+		->nrel_characteristic;;
+		->concept_transmission_type;;
+		->nrel_gear_shift;;
+	*);;
+=> nrel_main_idtf: [Опр.(принцип переключения трансмиссии*)](*<-lang_ru;;*);; 
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [Характеристика трансмиссии, определяющая каким образом переключаются передачи в данном типе трансмиссии.](*<-lang_ru;;*);; 
+	*);; 
+*);;	
+
+nrel_transmission_principle_of_operations <- rrel_key_sc_element: ... 
+	(*
+	->rrel_key_sc_element: nrel_divide_on; concept_transmission; concept_mechanical_transmission; concept_electric_transmission;;
+	<-statement;;
+	<=nrel_sc_text_translation: ... 
+		(* 
+			-> rrel_example: [По принципу переключения трансмиссии делятся на трансмиссии с ручным включением передач (механические) и электрические трансмиссии.](*<-lang_ru;;*);;
+		*);;
+	=>nrel_main_idtf: [Утв.(принцип переключения трансмиссии*, трансмиссия, делиться на*, механическая трансмиссия, электрическая трансмиссия)](*<-lang_ru;;*);;
+	<-rrel_axiom:concept_IHS_by_car;;
+	<-concept_statement_of_the_defining_type;;
+	*);;
+	  
+nrel_transmission_principle_of_operations => nrel_first_domain: concept_transmission;;
+nrel_transmission_principle_of_operations => nrel_second_domain: concept_transmission_type_by_principle_of_operations;;
+nrel_transmission_principle_of_operations => nrel_definitional_domain: ...
+	(*
+		<=nrel_combination: ...																	
+			(*
+				->concept_transmission;;
+				->concept_transmission_type_by_principle_of_operations;;
+			*);;
+	*);;
+		
+concept_oriented_relation->nrel_transmission_principle_of_operations;;
+concept_binari_relation->nrel_transmission_principle_of_operations;;
+concept_antisymmetric_relation->nrel_transmission_principle_of_operations;;
+concept_antitransitive_relation->nrel_transmission_principle_of_operations;;
+concept_antireflexive_relation->nrel_transmission_principle_of_operations;;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: nrel_transmission_principle_of_operations;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/nrel_transmission_principle_of_operations.png";;
+		*);;
+	*);;

@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_many_warning_signs_on_the_dashboard;;
+concept_many_warning_signs_on_the_dashboard => nrel_main_idtf:
+[множество предупреждающих значков на приборной панели](*<-lang_ru;;*);
+     [many warning signs on the dashboard](*<-lang_en;;*);;
+concept_many_warning_signs_on_the_dashboard <-concept_car_state;;

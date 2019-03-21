@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_burnt_clutch;;
+concept_burnt_clutch => nrel_main_idtf:
+["горелое" сцепление](*<-lang_ru;;*);
+     ["burnt" clutch](*<-lang_en;;*);;
+concept_burnt_clutch=>nrel_smell: concept_cinder;;
+concept_burnt_clutch <-concept_defect;;

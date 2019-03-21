@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_impacts;;
+concept_impacts => nrel_main_idtf:
+[толчки](*<-lang_ru;;*);
+     [impact](*<-lang_en;;*);;
+concept_impacts <-concept_car_behavior;;

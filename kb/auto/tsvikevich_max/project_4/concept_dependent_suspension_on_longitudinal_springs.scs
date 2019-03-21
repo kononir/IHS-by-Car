@@ -1,0 +1,15 @@
+concept_dependent_suspension_on_longitudinal_springs <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+		->concept_lever;;
+        ->concept_dependent_suspension;;
+        ->concept_axle;;  
+*);;
+=> nrel_main_idtf: [Опр.(зависимая подвеска на продольных рессорах)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [зависимая подвеска на продольных рессорах - тип зависимой подвески, в которой балка моста подвешена на двух продольно ориентированных рессорах.](*<-lang_ru;;*);; 
+*);; 
+*);;

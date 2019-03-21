@@ -1,0 +1,730 @@
+sc_node_not_relation -> concept_front_suspension;;
+concept_front_suspension => nrel_main_idtf:
+[передняя подвеска](* <-lang_ru;; *);
+	[front suspension](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_back_suspension;;
+concept_back_suspension => nrel_main_idtf:
+[задняя подвеска](* <-lang_ru;; *);
+	[back suspension](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_drive_unit;;
+concpt_drive_unit => nrel_main_idtf:
+[привод*](* <-lang_ru;; *);
+	[drive unit*](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_dependent_suspension;;
+concept_dependent_suspension => nrel_main_idtf:
+[зависимая подвеска](* <-lang_ru;; *);
+	[dependent suspension](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_independent_suspension;;
+concept_independent_suspension => nrel_main_idtf:
+[независимая подвеска](* <-lang_ru;; *);
+	[independent suspension](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_hood_car_layout;;
+concept_hood_car_layout => nrel_main_idtf:
+[капотная компоновка легкового автомобиля](* <-lang_ru;; *);
+	[hood car layout](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_transmission;;
+concept_transmission => nrel_main_idtf:
+[трансмиссия](* <-lang_ru;; *);
+	[transmission](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_car_layout;;
+concept_car_layout => nrel_main_idtf:
+[компоновка легкового автомобиля](* <-lang_ru;; *);
+	[car layout](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_wagon_car_layout;;
+concept_wagon_car_layout => nrel_main_idtf:
+[вагонная компоновка легкового автомобиля](* <-lang_ru;; *);
+	[wagon car layout](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_sceme;;
+concept_sceme => nrel_main_idtf:
+[схема](* <-lang_ru;; *);
+	[sceme](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_unit;;
+concept_unit => nrel_main_idtf:
+[агрегат](* <-lang_ru;; *);
+	[unit](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_frame;;
+concept_unit => nrel_main_idtf:
+[рама](* <-lang_ru;; *);
+	[frame](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_drive_unit_type;;
+concept_drive_unit_type => nrel_main_idtf:
+[тип привода](* <- lang_ru;; *);
+    [type of drive unit](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_car_device;;
+concept_car_device => nrel_main_idtf:
+[устройство автомобиля](* <-lang_ru;; *);
+	[car device](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_device;;
+concept_device => nrel_main_idtf:
+[устройство](* <-lang_ru;; *);
+	[device](* <- lang_en;; *);;  
+
+sc_node_not_relation -> concept_front_wheel_drive;;
+concept_front_wheel_drive => nrel_main_idtf:
+[передний привод](* <-lang_ru;; *);
+	[front wheel drive](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_rear_drive;;
+concept_rear_drive => nrel_main_idtf:
+[задний привод](* <-lang_ru;; *);
+	[rear drive](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_four_wheel_drive;;
+concept_four_wheel_drive => nrel_main_idtf:
+[полный привод](* <-lang_ru;; *);
+	[four wheel drive](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_energy;;
+concept_energy => nrel_main_idtf:
+[энергия](* <-lang_ru;; *);
+	[energy](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_drive_unit;;
+concept_drive_unit => nrel_main_idtf:
+[привод](* <- lang_ru;; *);
+    [drive unit](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_four_wheel_drive;;
+concept_four_wheel_drive => nrel_main_idtf:
+[полный привод](* <-lang_ru;; *);
+	[four wheel drive](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_semiaxis;;
+concept_semiaxis => nrel_main_idtf:
+[полуось автомобиля](* <-lang_ru;; *);
+	[car semiaxis](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_front_wheel_drive;;
+concept_front_wheel_drive => nrel_main_idtf:
+[передний привод](* <-lang_ru;; *);
+	[front wheel drive](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_present;;
+concept_present => nrel_main_idtf:
+[настоящее время](* <-lang_ru;; *);
+	[the present](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_speed;;
+concept_speed => nrel_main_idtf:
+[скорость](* <-lang_ru;; *);
+	[speed](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_motion;;
+concept_motion => nrel_main_idtf:
+[движение](* <-lang_ru;; *);;
+
+sc_node_not_relation -> concept_physical_quantity;;
+concept_physical_quantity => nrel_main_idtf:
+[физическая величина](* <-lang_ru;; *);;
+
+sc_node_not_relation -> concept_act;;
+concept_act => nrel_main_idtf:
+[действие](* <-lang_ru;; *);;
+
+sc_node_not_relation -> concept_science;;
+concept_science => nrel_main_idtf:
+[наука](* <-lang_ru;; *);
+	[science](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_defined_type_statement;;
+concept_defined_type_statement => nrel_main_idtf:
+[утверждение определяющего типа](* <-lang_ru;; *);
+	[defined type statement](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_tire;;
+concept_tire => nrel_main_idtf:
+[шина](* <-lang_ru;; *);
+	[tire](* <- lang_en;; *);;
+
+sc_node_not_relation ->  concept_sheath;;
+concept_sheath => nrel_main_idtf:
+[оболочка](* <-lang_ru;; *);
+	[sheath](* <- lang_en;; *);;
+
+sc_node_not_relation ->  concept_disc;;
+concept_disc => nrel_main_idtf:
+[диск](* <-lang_ru;; *);
+	[disc](* <- lang_en;; *);;
+
+sc_node_not_relation ->  concept_wheel_element;;
+concept_wheel_element => nrel_main_idtf:
+[элемент колеса](* <-lang_ru;; *);
+	[wheel element](* <- lang_en;; *);;
+
+sc_node_not_relation ->  concept_wheel;;
+concept_wheel => nrel_main_idtf:
+[колесо](* <-lang_ru;; *);
+	[wheel](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_transmission_type;;
+concept_transmission_type => nrel_main_idtf:
+[тип трансмиссии](* <- lang_ru;; *);
+    [type of transmission](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_mechanism;;
+concept_mechanism => nrel_main_idtf:
+[механизм](* <-lang_ru;; *);
+	[mechanism](* <- lang_en;; *);;
+	
+sc_node_not_relation -> concept_mechanical_transmission;;
+concept_mechanical_transmission => nrel_main_idtf:
+[механическая трансмиссия](* <-lang_ru;; *);
+	[mechanical transmission](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_electric_transmission;;
+concept_electric_transmission => nrel_main_idtf:
+[электрическая трансмиссия](* <-lang_ru;; *);
+	[electric transmission](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_speed;;
+concept_speed => nrel_main_idtf:
+[скорость](* <-lang_ru;; *);
+	[speed](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_line;;
+concept_line => nrel_main_idtf:
+[линия](* <- lang_ru;; *);
+[line](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_numerical_characteristic;;
+concept_numerical_characteristic => nrel_main_idtf:
+[числовая характеристика](* <- lang_ru;; *);
+[numerical characteristic](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_fuel_tank;;
+concept_fuel_tank => nrel_main_idtf:
+[топливный бак](* <-lang_ru;; *);
+	[fuel tank](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_line;;
+concept_line => nrel_main_idtf:
+[линия](* <- lang_ru;; *);
+[line](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_power;;
+concept_power => nrel_main_idtf:
+[мощность](* <- lang_ru;; *);
+[power](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_power_unit;;
+concept_power_unit => nrel_main_idtf:
+[единица мощности](* <- lang_ru;; *);
+[power unit](* <- lang_en;; *);;
+
+
+sc_node_not_relation -> concept_carrier_system;;
+concept_carrier_system => nrel_main_idtf:
+[несущая система](*<-lang_ru;;*);
+	[carrier system](*<-lang_en;;*);;
+sc_node_not_relation -> concept_body_shell;;
+concept_body_shell => nrel_main_idtf:
+[корпус кузова](*<-lang_ru;;*);
+[каркас кузова](*<-lang_ru;;*);
+	[body shell](*<-lang_en;;*);;
+	
+	sc_node_not_relation -> concept_carrier_system;;
+concept_carrier_system => nrel_main_idtf:
+[несущая система](*<-lang_ru;;*);
+	[carrier system](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_body_shell;;
+concept_body_shell => nrel_main_idtf:
+[корпус кузова](*<-lang_ru;;*);
+[каркас кузова](*<-lang_ru;;*);
+	[body shell](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_bonnet;;
+concept_bonnet => nrel_main_idtf:
+[капот](*<-lang_ru;;*);
+	[bonnet](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_car_door;;
+concept_car_door => nrel_main_idtf:
+[дверь](*<-lang_ru;;*);
+[дверь автомобиля](*<-lang_ru;;*);
+	[car door](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_trunk_lid;;
+concept_trunk_lid => nrel_main_idtf:
+[крышка багажника](*<-lang_ru;;*);
+	[trunk lid](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_front_bumper;;
+concept_front_bumper => nrel_main_idtf:
+[передний бампер](*<-lang_ru;;*);
+	[front bumper](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_rear_bumper;;
+concept_rear_bumper => nrel_main_idtf:
+[задний бампер](*<-lang_ru;;*);
+	[rear bumper](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_bracket;;
+concept_bracket => nrel_main_idtf:
+[кронштейн](*<-lang_ru;;*);
+	[bracket](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_bolt;;
+concept_bolt => nrel_main_idtf:
+[болт](*<-lang_ru;;*);
+	[bolt](*<-lang_en;;*);;
+
+sc_node_not_relation->concept_thick_rubber_gasket;;
+concept_thick_rubber_gasket => nrel_main_idtf:
+[толстая резиновая прокладка](*<-lang_ru;;*);
+	[thick rubber gasket](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_370Z_coupe_usa;;
+concept_370Z_coupe_usa => nrel_main_idtf:
+[370Z купе США](*<-lang_ru;;*);
+	[370Z coupe usa](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_coupe;;
+concept_coupe => nrel_main_idtf:
+[купе](*<-lang_ru;;*);
+	[coupe](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_350Z_Enthusiast_roadster_usa;;
+concept_350Z_Enthusiast_roadster_usa => nrel_main_idtf:
+[350Z Энтузиаст роадстер сша](*<-lang_ru;;*);
+	[350Z Enthusiast roadster usa](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_roadster;;
+concept_roadster => nrel_main_idtf:
+[роадстер](*<-lang_ru;;*);
+	[roadster](*<-lang_en;;*);;
+	
+sc_node_not_relation -> concept_consumer_quality;;
+concept_consumer_quality => nrel_main_idtf:
+[потребительское качество](*<-lang_ru;;*);
+    [consumer quality](*<-lang_en;;*);;
+
+//...
+
+sc_node_not_relation -> concept_car_body_type;;
+concept_car_body_type => nrel_main_idtf:
+[тип кузова автомобиля](* <-lang_ru;; *);
+	[car body type](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_time;;
+concept_time => nrel_main_idtf:
+[время](* <-lang_ru;; *);
+	[time](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_equipment;;
+concept_equipment => nrel_main_idtf:
+[оборудование](* <-lang_ru;; *);
+	[equipment](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_consumables;;
+concept_consumables => nrel_main_idtf:
+[расходный материал](* <-lang_ru;; *);
+	[consumables](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_driver;;
+concept_driver => nrel_main_idtf:
+[водитель](* <-lang_ru;; *);
+	[driver](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_passenger;;
+concept_passenger => nrel_main_idtf:
+[пассажир](* <-lang_ru;; *);
+	[passenger](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_bearing_surface;;
+concept_bearing_surface => nrel_main_idtf:
+[опорная поверхность](* <-lang_ru;; *);
+	[bearing surface](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_car_central_part;;
+concept_car_central_part => nrel_main_idtf:
+[центральная часть автомобиля](* <-lang_ru;; *);
+	[car central part](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_kit;;
+concept_kit => nrel_main_idtf:
+[комплект](* <-lang_ru;; *);
+	[kit](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_customer;;
+concept_customer => nrel_main_idtf:
+[заказчик](* <-lang_ru;; *);
+	[customer](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_panel;;
+concept_panel => nrel_main_idtf:
+[панель](* <-lang_ru;; *);
+	[panel](* <- lang_en;; *);;
+
+
+sc_node_not_relation -> concept_sedan;;
+concept_sedan => nrel_main_idtf:
+[седан](* <-lang_ru;; *);
+	[sedan](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_cabriolet;;
+concept_cabriolet => nrel_main_idtf:
+[кабриолет](* <-lang_ru;; *);
+	[cabriolet](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_hatchback;;
+concept_hatchback => nrel_main_idtf:
+[хэтчбек](* <-lang_ru;; *);
+	[hatchback](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_station_wagon;;
+concept_station_wagon => nrel_main_idtf:
+[универсал](* <-lang_ru;; *);
+	[station wagon](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_minivan;;
+concept_minivan => nrel_main_idtf:
+[минивэн](* <-lang_ru;; *);
+	[minivan](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_van;;
+concept_van => nrel_main_idtf:
+[фургон](* <-lang_ru;; *);
+	[van](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_pickup_truck;;
+concept_pickup_truck => nrel_main_idtf:
+[пикап](* <-lang_ru;; *);
+	[pickup truck](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_suv;;
+concept_suv => nrel_main_idtf:
+[внедорожник](* <-lang_ru;; *);
+	[suv](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_crossover;;
+concept_crossover => nrel_main_idtf:
+[кроссовер](* <-lang_ru;; *);
+	[crossover](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_car_body;;
+concept_car_body => nrel_main_idtf:
+[кузов](*<-lang_ru;;*);
+[кузов автомобиля](*<-lang_ru;;*);
+     [car body](*<-lang_en;;*);;
+sc_node_not_relation -> concept_closed_body;;
+concept_closed_body => nrel_main_idtf:
+[закрытый кузов](*<-lang_ru;;*);
+	[closed body](*<-lang_en;;*);;
+sc_node_not_relation -> concept_open_body;;
+concept_open_body => nrel_main_idtf:
+[открытый кузов](*<-lang_ru;;*);
+	[open body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_cargo_passenger_body;;
+concept_cargo_passenger_body => nrel_main_idtf:
+[грузо-пассажирский кузов](*<-lang_ru;;*);
+	[cargo-passenger body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_three_volumetric_body;;
+concept_three_volumetric_body => nrel_main_idtf:
+[трехобъемный кузов](*<-lang_ru;;*);
+	[three-volumetric body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_two_volumetric_body;;
+concept_two_volumetric_body => nrel_main_idtf:
+[двухобъемный кузов](*<-lang_ru;;*);
+	[two-volumetric body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_one_volumetric_body;;
+concept_one_volumetric_body => nrel_main_idtf:
+[однообъемный кузов](*<-lang_ru;;*);
+	[one-volumetric body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_integral_body;;
+concept_integral_body => nrel_main_idtf:
+[несущий кузов](*<-lang_ru;;*);
+	[integral body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_balanced_body;;
+concept_balanced_body => nrel_main_idtf:
+[разгруженный кузов](*<-lang_ru;;*);
+	[balanced body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_semi_integral_body;;
+concept_semi_integral_body => nrel_main_idtf:
+[полунесущий кузов](*<-lang_ru;;*);
+	[semi-integral body](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_suspension_type;;
+concept_suspension_type => nrel_main_idtf:
+[тип подвески автомобиля](*<-lang_ru;;*);
+[suspension type](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension;;
+concept_dependent_suspension => nrel_main_idtf:
+[зависимая подвеска](*<-lang_ru;;*);
+[жёсткая подвеска](*<-lang_ru;;*);
+[rigid suspension](*<-lang_en;;*);
+	[dependent suspension](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension;;
+concept_independent_suspension => nrel_main_idtf:
+[независимая подвеска](*<-lang_ru;;*);
+[мягкая подвеска](*<-lang_ru;;*);
+[soft suspension](*<-lang_en;;*);
+	[independent suspension](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_detail;;
+concept_detail => nrel_main_idtf:
+[деталь](*<-lang_ru;;*);
+	[detail](*<-lang_en;;*);;
+sc_node_not_relation -> concept_car_connecting_link;;
+concept_car_connecting_link => nrel_main_idtf:
+[соединительное звено автомобиля](*<-lang_ru;;*);
+	[car connecting link](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_elastic_constraint;; 
+nrel_elastic_constraint => nrel_main_idtf:
+[упругая связь*](*<-lang_ru;;*);
+	[elastic constraint*](*<-lang_en;;*);;
+
+sc_node_role_relation->rrel_active_force;;
+rrel_active_force => nrel_main_idtf:
+[действующая сила'](*<-lang_ru;;*);
+	[active force'](*<-lang_en;;*);;
+sc_node_not_relation -> concept_fluctuation;;
+concept_fluctuation => nrel_main_idtf:
+[колебание](*<-lang_ru;;*);
+	[fluctuation](*<-lang_en;;*);;
+
+sc_node_role_relation->rrel_direct_element;;
+rrel_direct_element => nrel_main_idtf:
+[направляющий элемент'](*<-lang_ru;;*);
+	[direct element'](*<-lang_en;;*);;
+
+sc_node_role_relation->rrel_elastic_element;;
+rrel_elastic_element => nrel_main_idtf:
+[упругий элемент'](*<-lang_ru;;*);
+	[elastic element'](*<-lang_en;;*);;
+
+sc_node_role_relation->rrel_securing_element;;
+rrel_securing_element => nrel_main_idtf:
+[элемент крепления'](*<-lang_ru;;*);
+[крепежный элемент'](*<-lang_ru;;*);
+	[securing element'](*<-lang_en;;*);;
+
+sc_node_role_relation->rrel_damping_device;;
+rrel_damping_device => nrel_main_idtf:
+[гасящее устройство'](*<-lang_ru;;*);
+	[damping device'](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_stabilizer_bar;;
+concept_stabilizer_bar => nrel_main_idtf:
+[стабилизатор поперечной устойчивости](*<-lang_ru;;*);
+	[stabilizer bar](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_wheel_support;;
+concept_wheel_support => nrel_main_idtf:
+[опора колеса](*<-lang_ru;;*);
+	[wheel support](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_on_longitudinal_levers;;
+concept_independent_suspension_on_longitudinal_levers => nrel_main_idtf:
+[независимая подвеска на продольных рычагах](*<-lang_ru;;*);
+	[independent suspension on longitudinal levers](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_with_oblique_levers;;
+concept_independent_suspension_with_oblique_levers => nrel_main_idtf:
+[независимая подвеска с косыми рычагами](*<-lang_ru;;*);
+	[independent suspension with oblique levers](*<-lang_en;;*);;
+
+	
+sc_node_not_relation -> concept_independent_suspension_on_longitudinal_levers;;
+concept_independent_suspension_on_longitudinal_levers => nrel_main_idtf:
+[независимая подвеска на продольных рычагах](*<-lang_ru;;*);
+	[independent suspension on longitudinal levers](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_multilink;;
+concept_independent_suspension_multilink => nrel_main_idtf:
+[независимая многорычажная подвеска](*<-lang_ru;;*);
+	[independent multi-link suspension](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_with_swing_axle;;
+concept_independent_suspension_with_swing_axle => nrel_main_idtf:
+[независимая подвеска с качающейся осью](*<-lang_ru;;*);
+	[independent suspension with swing axle](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_with_lever_and_spring_post;;
+concept_independent_suspension_with_lever_and_spring_post => nrel_main_idtf:
+[независимая подвеска с рычагом и пружинной стойкой](*<-lang_ru;;*);
+	[independent suspension with lever and spring post](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_with_longitudinal_levers;;
+concept_independent_suspension_with_longitudinal_levers => nrel_main_idtf:
+[независимая подвеска с продольными рычагами](*<-lang_ru;;*);
+	[independent suspension with longitudinal levers](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_with_two_transverse_springs;;
+concept_independent_suspension_with_two_transverse_springs => nrel_main_idtf:
+[независимая подвеска с двумя поперечными рессорами](*<-lang_ru;;*);
+	[independent suspension with two transverse springs](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_independent_suspension_candle;;
+concept_independent_suspension_candle => nrel_main_idtf:
+[независимая свечная подвеска](*<-lang_ru;;*);
+	[independent candle suspension](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_on_a_transverse_spring;;
+concept_dependent_suspension_on_a_transverse_spring => nrel_main_idtf:
+[зависимая подвеска на поперечной рессоре](*<-lang_ru;;*);
+	[dependent suspension on a transverse spring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_on_longitudinal_springs;;
+concept_dependent_suspension_on_longitudinal_springs => nrel_main_idtf:
+[зависимая подвеска на продольных рессорах](*<-lang_ru;;*);
+	[dependent suspension on longitudinal springs](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_with_guide_levers;;
+concept_dependent_suspension_with_guide_levers => nrel_main_idtf:
+[зависимая подвеска с направляющими рычагами](*<-lang_ru;;*);
+	[dependent suspension with guide levers](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_type_DeDion;;
+concept_dependent_suspension_type_DeDion => nrel_main_idtf:
+[зависимая подвеска типа "Де-Дион"](*<-lang_ru;;*);
+	[dependent suspension type "De-Dion"](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_with_drawbar;;
+concept_dependent_suspension_with_drawbar => nrel_main_idtf:
+[зависимая подвеска с дышлом](*<-lang_ru;;*);
+	[dependent suspension with drawbar](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_with_related_levers;;
+concept_dependent_suspension_with_related_levers => nrel_main_idtf:
+[зависимая подвеска со связанными рычагами](*<-lang_ru;;*);
+	[dependent suspension with related levers](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_with_guide_levers;;
+concept_dependent_suspension_with_guide_levers => nrel_main_idtf:
+[зависимая подвеска с направляющими рычагами](*<-lang_ru;;*);
+	[dependent suspension with guide levers](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_dependent_suspension_torsional;;
+concept_dependent_suspension_torsional => nrel_main_idtf:
+[торсионная зависимая подвеска](*<-lang_ru;;*);
+	[dependent torsional suspension](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_axis;;
+concept_axis => nrel_main_idtf:
+[ось автомобиля](*<-lang_ru;;*);
+	[car axis](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spring;;
+concept_spring => nrel_main_idtf:
+[рессора](*<-lang_ru;;*);
+	[spring](*<-lang_en;;*);;
+	
+sc_node_not_relation -> concept_spring_elliptical;;
+concept_spring_elliptical => nrel_main_idtf:
+[эллиптическая рессора](*<-lang_ru;;*);
+	[elliptical spring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spring_semielliptical;;
+concept_spring_semielliptical => nrel_main_idtf:
+[полуэллиптическая рессора](*<-lang_ru;;*);
+	[semielliptical spring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spring_three_quarter_elliptical;;
+concept_spring_three_quarter_elliptical => nrel_main_idtf:
+[три четверти-эллиптическая рессора](*<-lang_ru;;*);
+	[three quarter-elliptical spring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spring_quarter_elliptical;;
+concept_spring_quarter_elliptical => nrel_main_idtf:
+[четверть-эллиптическая рессора](*<-lang_ru;;*);
+	[quarter-elliptical spring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spring_torsional;;
+concept_spring_torsional => nrel_main_idtf:
+[торсионная рессора](*<-lang_ru;;*);
+	[torsional spring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spring_mainspring;;
+concept_spring_mainspring => nrel_main_idtf:
+[пружинная рессора](*<-lang_ru;;*);
+	[mainspring spring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_torsion;;
+concept_torsion => nrel_main_idtf:
+[торсион](*<-lang_ru;;*);
+	[torion](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spring_post;;
+concept_spring_post => nrel_main_idtf:
+[пружинная стойка](*<-lang_ru;;*);
+	[spring post](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_shock_absorber;;
+concept_shock_absorber => nrel_main_idtf:
+[амортизатор](*<-lang_ru;;*);
+	[shock absorber](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_mainspring;;
+concept_mainspring => nrel_main_idtf:
+[пружина](*<-lang_ru;;*);
+	[mainspring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_mainspring_rigid;;
+concept_mainspring_rigid => nrel_main_idtf:
+[жесткая пружина](*<-lang_ru;;*);
+	[rigid mainspring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_mainspring_soft;;
+concept_mainspring_soft => nrel_main_idtf:
+[мягкая пружина](*<-lang_ru;;*);
+	[soft mainspring](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_lever;;
+concept_lever => nrel_main_idtf:
+[рычаг](*<-lang_ru;;*);
+	[lever](*<-lang_en;;*);;
+	
+sc_node_not_relation -> concept_rounded_fist;;
+concept_rounded_fist => nrel_main_idtf:
+[поворотный кулак](*<-lang_ru;;*);
+	[rounded fist](*<-lang_en;;*);;
+	
+sc_node_not_relation -> concept_bump;;
+concept_bump => nrel_main_idtf:
+[отбойник](*<-lang_ru;;*);
+	[bump](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_drive_shaft;;
+concept_drive_shaft => nrel_main_idtf:
+[приводной вал](*<-lang_ru;;*);
+	[drive shaft](*<-lang_en;;*);;
+	
+sc_node_not_relation -> concept_reactive_rod;;
+concept_reactive_rod => nrel_main_idtf:
+[реактивная штанга](*<-lang_ru;;*);
+	[reactive rod](*<-lang_en;;*);;
+	
+sc_node_not_relation -> concept_drawbar;;
+concept_drawbar => nrel_main_idtf:
+[дышло](*<-lang_ru;;*);
+	[drawbar](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_spindle;;
+concept_spindle => nrel_main_idtf:
+[шпиндель](* <-lang_ru;; *);
+	[spindle](* <- lang_en;; *);;

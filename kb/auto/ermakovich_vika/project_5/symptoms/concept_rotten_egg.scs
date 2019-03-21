@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_rotten_egg;;
+concept_rotten_egg => nrel_main_idtf:
+[тухлые яйца](*<-lang_ru;;*);
+     [rotten egg](*<-lang_en;;*);;
+concept_rotten_egg <-concept_smell;;

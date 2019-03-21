@@ -1,0 +1,14 @@
+concept_independent_suspension_with_swing_axle <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_independent_suspension;;
+		->concept_car_body;; 
+*);;
+=> nrel_main_idtf: [Опр.(независимая подвеска с качающейся осью)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [независимая подвеска с качающейся осью - тип независимой подвески, при которой левая труба полуоси жестко соединена с корпусом главной передачи, а правая труба имеет пружинное соединение.](*<-lang_ru;;*);; 
+*);; 
+*);;

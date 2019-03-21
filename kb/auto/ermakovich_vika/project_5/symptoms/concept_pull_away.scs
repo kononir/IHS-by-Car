@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_pull_away;;
+concept_pull_away => nrel_main_idtf:
+[тянет в сторону](*<-lang_ru;;*);
+     [pull away](*<-lang_en;;*);;
+concept_pull_away<-concept_car_behavior;;

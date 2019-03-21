@@ -1,0 +1,15 @@
+concept_independent_suspension_candle <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+		->concept_wheel;;
+        ->concept_independent_suspension;;
+		->concept_rounded_fist;; 
+*);;
+=> nrel_main_idtf: [Опр.(независимая свечная подвеска)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [независимая свечная подвеска - тип независимой подвески, при которой колесо вместе с поворотным кулаком перемещается вдоль вертикальной направляющей.](*<-lang_ru;;*);; 
+*);; 
+*);;

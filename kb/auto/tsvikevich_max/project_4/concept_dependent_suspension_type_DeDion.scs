@@ -1,0 +1,17 @@
+concept_dependent_suspension_type_DeDion <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+		->nrel_torque;;
+        ->concept_dependent_suspension;;
+		->concept_car_body;;
+        ->concept_axle;;
+        ->concept_wheel;;  
+*);;
+=> nrel_main_idtf: [Опр.(зависимая подвеска типа «Де-Дион»)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [зависимая подвеска типа «Де-Дион» - тип зависимой подвески, при которой крутящий момент воспринимался днищем кузова автомобиля, а на жёсткой оси крепились ведущие колёса.](*<-lang_ru;;*);; 
+*);; 
+*);;

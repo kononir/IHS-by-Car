@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_failure_of_the_power_steering_pump;;
+concept_failure_of_the_power_steering_pump => nrel_main_idtf:
+[выход из строя наноса гидроусилителя](*<-lang_ru;;*);
+     [failure of the power steering pump](*<-lang_en;;*);;
+concept_failure_of_the_power_steering_pump <-  concept_defect;;
+concept_failure_of_the_power_steering_pump=>nrel_sound: concept_growl;;
+concept_failure_of_the_power_steering_pump=>nrel_car_behavior: concept_vibration;;

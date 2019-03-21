@@ -1,0 +1,85 @@
+sc_node_norole_relation -> nrel_tire_fabric_carcass_construction;; 
+nrel_tire_fabric_carcass_construction => nrel_main_idtf:
+[конструкция каркаса шины*](*<-lang_ru;;*);
+	[tire fabric carcass construction*](*<-lang_en;;*);;
+sc_node_not_relation -> concept_cord_thread;;
+concept_cord_thread => nrel_main_idtf:
+[нить корда](*<-lang_ru;;*);
+    [cord thread](*<-lang_en;;*);;
+sc_node_not_relation -> concept_tire_carcass;;
+concept_tire_carcass => nrel_main_idtf:
+[каркас шины](*<-lang_ru;;*);
+    [tire carcass](*<-lang_en;;*);;
+sc_node_not_relation -> concept_radial_tire;;
+concept_radial_tire => nrel_main_idtf:
+[радиальная шина](*<-lang_ru;;*);
+    [radial tire](*<-lang_en;;*);;
+sc_node_not_relation -> concept_bias_tire;;
+concept_bias_tire => nrel_main_idtf:
+[диагональная шина](*<-lang_ru;;*);
+    [bias tire](*<-lang_en;;*);;
+
+nrel_tire_fabric_carcass_construction <- rrel_key_sc_element: ...
+(*
+<- definition;;
+<= nrel_using_constants: ... 
+	(*
+		->nrel_characteristic;;
+		->concept_tire;;
+		->concept_cord_thread;;
+		->concept_tire_carcass;;
+	*);;
+=> nrel_main_idtf: [Опр.(конструкция каркаса шины*)](*<-lang_ru;;*);; 
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [Характеристика шины, показывающая расположение нитей корда в каркасе шины.](*<-lang_ru;;*);; 
+	*);; 
+*);;	
+
+nrel_tire_fabric_carcass_construction <- rrel_key_sc_element: ... 
+	(*
+	->rrel_key_sc_element: nrel_divide_on; concept_tire; concept_radial_tire; concept_bias_tire;;
+	<-statement;;
+	<=nrel_sc_text_translation: ... 
+		(* 
+			-> rrel_example: [По конструкции каркаса шины делятся на радиальные и диагональные.](*<-lang_ru;;*);;
+		*);;
+	=>nrel_main_idtf: [Утв.(конструкция каркаса шины*, шина, делиться на*, радиальная шина, диагональная шина)](*<-lang_ru;;*);;
+	<-rrel_axiom:concept_IHS_by_car;;
+	<-concept_statement_of_the_defining_type;;
+	*);;
+	  
+nrel_tire_fabric_carcass_construction => nrel_first_domain: concept_tire;;
+nrel_tire_fabric_carcass_construction => nrel_second_domain: concept_optional_letter;;
+nrel_tire_fabric_carcass_construction => nrel_definitional_domain: ...
+	(*
+		<=nrel_combination: ...																	
+			(*
+				->concept_tire;;
+				->concept_optional_letter;;
+			*);;
+	*);;
+		
+concept_oriented_relation->nrel_tire_fabric_carcass_construction;;
+concept_binari_relation->nrel_tire_fabric_carcass_construction;;
+concept_antisymmetric_relation->nrel_tire_fabric_carcass_construction;;
+concept_antitransitive_relation->nrel_tire_fabric_carcass_construction;;
+concept_antireflexive_relation->nrel_tire_fabric_carcass_construction;;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: nrel_tire_fabric_carcass_construction;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/tire_fabric_carcass_construction.jpg";;
+		*);;
+	*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: nrel_tire_fabric_carcass_construction;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/nrel_tire_fabric_carcass_construction.png";;
+		*);;
+	*);;

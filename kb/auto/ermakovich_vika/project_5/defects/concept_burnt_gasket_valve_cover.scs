@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_burnt_gasket_valve_cover;;
+concept_burnt_gasket_valve_cover => nrel_main_idtf:
+[прогорела прокладка клапанной крышки](*<-lang_ru;;*);
+     [urnt gasket valve cover](*<-lang_en;;*);;
+concept_burnt_gasket_valve_cover=>nrel_smell: concept_fuel;;
+concept_burnt_gasket_valve_cover <-concept_defect;;

@@ -1,0 +1,15 @@
+concept_independent_suspension_with_lever_and_spring_post <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+		->concept_lever;;
+        ->concept_independent_suspension;;
+		->concept_spring_post;; 
+*);;
+=> nrel_main_idtf: [Опр.(независимая подвеска с рычагом и пружинной стойкой)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [независимая подвеска с рычагом и пружинной стойкой - тип независимой подвески, в основе которой лежат рычаг одновременно с пружинной стойкой.](*<-lang_ru;;*);; 
+*);; 
+*);;

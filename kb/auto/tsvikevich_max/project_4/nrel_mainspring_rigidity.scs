@@ -1,0 +1,32 @@
+nrel_mainspring_rigidity
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_mainspring;;
+*);;
+=> nrel_main_idtf: [Опр.(жесткость пружины*)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [жесткость пружины*  - характеристика пружины, определяющая ее способность деформироваться при нагрузках.](*<-lang_ru;;*);; 
+*);; 
+*);;
+
+nrel_mainspring_rigidity <- binary_relation;;
+nrel_mainspring_rigidity <- oriented_relation;;
+nrel_mainspring_rigidity <- antisymmetric_relation;;
+nrel_mainspring_rigidity <- antitransitive_relation;;
+nrel_mainspring_rigidity <- antireflexive_relation;;
+
+nrel_mainspring_rigidity => nrel_first_domain: concept_mainspring;;
+nrel_mainspring_rigidity => nrel_second_domain: concept_number;;
+
+nrel_mainspring_rigidity => nrel_domain_of_definition: ...
+	(*
+		<= nrel_union: ...																	
+			(*
+				->concept_number;;
+                ->concept_mainspring;;
+			*);;
+	*);;

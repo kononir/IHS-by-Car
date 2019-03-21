@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_faulty_ignition_coil;;
+concept_faulty_ignition_coil => nrel_main_idtf:
+[неисправная катушка зажигания](*<-lang_ru;;*);
+     [faulty ignition coil](*<-lang_en;;*);;
+concept_faulty_ignition_coil <-  concept_defect;;
+concept_faulty_ignition_coil=>nrel_sound: concept_whistle_under_the_hood;;
+concept_faulty_ignition_coil=>nrel_driving_feeling: concept_impacts;;

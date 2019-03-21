@@ -1,0 +1,14 @@
+concept_independent_suspension_with_longitudinal_levers <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_independent_suspension;;
+		->concept_lever;; 
+*);;
+=> nrel_main_idtf: [Опр.(независимая подвеска с продольными рычагами)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [независимая подвеска с продольными рычагами - тип независимой подвески, в основе которой лежат продольные рычаги.](*<-lang_ru;;*);; 
+*);; 
+*);;

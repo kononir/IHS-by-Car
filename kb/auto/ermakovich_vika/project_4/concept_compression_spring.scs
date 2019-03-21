@@ -1,0 +1,32 @@
+sc_node_not_relation -> concept_compression_spring;;
+concept_compression_spring => nrel_main_idtf:
+[стяжная пружина](*<-lang_ru;;*);
+     [compression spring](*<-lang_en;;*);;
+
+concept_compression_spring <-rrel_key_sc_element: ...
+(*
+<- definition;;
+<=nrel_used_constants: ... 
+	(*
+		->concept_brake_pad;; 
+	*);;
+=> nrel_main_idtf: [Опр.(стяжная пружина)](*<-lang_ru;;*);; 
+<= nrel_sc_text_translation:...
+(* 
+		-> rrel_example:
+		[<b>Стяжная пружина</b> - пружина, работающая на сжатие, крепится к <sc_element sys_idtf="concept_brake_pad">колодкам</sc_element> сверху и снизу, не давая им в «холостом ходу» разойтись в разные стороны.](*<-lang_ru;; => nrel_format: format_html;;*);; 
+*);; 
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_compression_spring;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/concept_compression_spring.jpg";;
+		*);;
+	*);;
+
+
+
+

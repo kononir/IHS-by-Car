@@ -1,0 +1,15 @@
+concept_spring_quarter_elliptical
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_spring;;
+        ->concept_spring_semielliptical;;
+*);;
+=> nrel_main_idtf: [Опр.(четверть-эллиптическая рессора)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [четверть-эллиптическая рессора - тип рессоры, который является половиной полуэллиптической рессоры, один из концов которой неподвижно закреплён на шасси, а второй — консольно вывешен.](*<-lang_ru;;*);; 
+*);; 
+*);;

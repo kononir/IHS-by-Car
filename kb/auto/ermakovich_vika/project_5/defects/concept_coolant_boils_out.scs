@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_coolant_boils_out;;
+concept_coolant_boils_out => nrel_main_idtf:
+[выкипает охлаждающая жидкость](*<-lang_ru;;*);
+     [coolant boils out](*<-lang_en;;*);;
+concept_coolant_boils_out=>nrel_smell: concept_sweet;;
+concept_coolant_boils_out <-concept_defect;;

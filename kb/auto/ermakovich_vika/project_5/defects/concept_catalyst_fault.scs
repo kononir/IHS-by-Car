@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_catalyst_fault;;
+concept_catalyst_fault => nrel_main_idtf:
+[неисправный катализатор](*<-lang_ru;;*);
+     [catalyst fault](*<-lang_en;;*);;
+concept_catalyst_fault=>nrel_smell: concept_rotten_egg;;
+concept_catalyst_fault=>nrel_smell: concept_fuel;;
+concept_catalyst_fault <-concept_defect;;

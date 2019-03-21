@@ -1,0 +1,22 @@
+sc_node_not_relation->concept_brake_pedal;;
+concept_brake_pedal => nrel_main_idtf:
+[педаль тормоза](*<-lang_ru;;*);
+[brake pedal](*<-lang_en;;*);;
+
+concept_brake_pedal <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(педаль тормоза)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Педаль тормоза</b> - устройство <sc_element sys_idtf="concept_car">автомобиля</sc_element>, посредством которого в <sc_element sys_idtf="concept_braking_system">тормозную систему</sc_element> подается сигнал о торможении.](* <- lang_ru;; => nrel_format: format_html;; *);; *);;
+	   <=nrel_used_constants: concept_car; concept_braking_system;;
+     *);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_brake_pedal;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_brake_pedal.jpg";;
+		-> "file://content/concept_brake_pedal1.jpg";;
+		*);;
+	*);;

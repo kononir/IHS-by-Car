@@ -1,0 +1,15 @@
+concept_spring_torsional
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_spring;;
+        ->concept_torsion;;
+*);;
+=> nrel_main_idtf: [Опр.(торсионная рессора)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [торсионная рессора - тип рессоры, основным рабочим элементом которой является торсион.](*<-lang_ru;;*);; 
+*);; 
+*);;

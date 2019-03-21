@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_howl;;
+concept_howl => nrel_main_idtf:
+[вой](*<-lang_ru;;*);
+     [howl](*<-lang_en;;*);;
+concept_howl <-concept_sound;;

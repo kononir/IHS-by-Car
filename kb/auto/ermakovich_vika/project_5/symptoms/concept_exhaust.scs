@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_exhaust;;
+concept_exhaust => nrel_main_idtf:
+[выхлопные газы](*<-lang_ru;;*);
+     [exhaust](*<-lang_en;;*);;
+concept_exhaust <-concept_smell;;

@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_crack;;
+concept_crack => nrel_main_idtf:
+[треск](*<-lang_ru;;*);
+     [crack](*<-lang_en;;*);;
+concept_crack <-concept_sound;;

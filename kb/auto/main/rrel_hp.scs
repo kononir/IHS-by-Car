@@ -1,0 +1,32 @@
+
+rrel_hp <- binary_relation;;
+rrel_hp <- oriented_relation;;
+rrel_hp <- antisymmetric_relation;;
+rrel_hp <- antitransitive_relation;;
+rrel_hp <- antireflexive_relation;;
+
+rrel_hp => nrel_second_domain: concept_number;;
+
+rrel_hp => nrel_domain_of_definition: ...
+	(*
+		<= nrel_union: ...																	
+			(*
+				->rrel_non_systemic_measure;;
+				->concept_power;;
+			*);;
+	*);;
+
+rrel_hp <- rrel_key_sc_element:...(*<- definition;;<=nrel_using_constants: concept_power; rrel_non_systemic_measure; concept_power_unit;; => nrel_main_idtf: [Опр.(лошадиная сила')](*<-lang_ru;;*);; <= nrel_sc_text_translation: ...
+(*-> [Лошадиная сила - это внесистемная единица измерения мощности.](*<-lang_ru;;*);; *);; *);;
+
+//задание коэффициента конвертирования*
+735_499 <= nrel_conversion_rate: (rrel_hp => rrel_W);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: rrel_hp;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/rrel_hp.jpg";;
+		*);;
+	*);;

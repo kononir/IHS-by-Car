@@ -1,0 +1,30 @@
+nrel_spring_type
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_spring;;
+*);;
+=> nrel_main_idtf: [Опр.(тип рессоры*)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [тип рессоры*  - характеристика рессоры, описываемая принцип ее работы.](*<-lang_ru;;*);; 
+*);; 
+*);;
+
+nrel_spring_type <- binary_relation;;
+nrel_spring_type <- oriented_relation;;
+nrel_spring_type <- antisymmetric_relation;;
+nrel_spring_type <- antitransitive_relation;;
+nrel_spring_type <- antireflexive_relation;;
+
+nrel_spring_type => nrel_first_domain: concept_spring;;
+
+nrel_spring_type => nrel_domain_of_definition: ...
+	(*
+		<= nrel_union: ...																	
+			(*
+				->concept_spring;;
+			*);;
+	*);;

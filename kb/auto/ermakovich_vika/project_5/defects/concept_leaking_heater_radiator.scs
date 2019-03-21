@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_leaking_heater_radiator;;
+concept_leaking_heater_radiator => nrel_main_idtf:
+[течет радиатор печки](*<-lang_ru;;*);
+     [leaking heater radiator](*<-lang_en;;*);;
+concept_leaking_heater_radiator=>nrel_smell: concept_sweet;;
+concept_leaking_heater_radiator <-concept_defect;;

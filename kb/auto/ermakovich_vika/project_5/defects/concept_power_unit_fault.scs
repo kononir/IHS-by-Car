@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_power_unit_fault;;
+concept_power_unit_fault => nrel_main_idtf:
+[неисправность силового агрегата](*<-lang_ru;;*);
+     [power unit fault](*<-lang_en;;*);;
+concept_power_unit_fault=>nrel_sound: concept_rattle;;
+concept_power_unit_fault <-concept_defect;;

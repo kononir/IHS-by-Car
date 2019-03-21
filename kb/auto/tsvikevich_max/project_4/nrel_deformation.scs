@@ -1,0 +1,26 @@
+nrel_deformation
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+=> nrel_main_idtf: [Опр.(деформация*)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [деформация* - изменение взаимного положения частиц тела, связанное с их перемещением друг относительно друга.](*<-lang_ru;;*);; 
+*);; 
+*);;
+
+nrel_deformation <- binary_relation;;
+nrel_deformation <- oriented_relation;;
+nrel_deformation <- antisymmetric_relation;;
+nrel_deformation <- antitransitive_relation;;
+nrel_deformation <- antireflexive_relation;;
+
+nrel_deformation => nrel_first_domain: concept_mainspring;;
+
+nrel_deformation => nrel_domain_of_definition: ...
+	(*
+		<= nrel_union: ...																	
+			(*
+				->concept_mainspring;;
+			*);;
+	*);;

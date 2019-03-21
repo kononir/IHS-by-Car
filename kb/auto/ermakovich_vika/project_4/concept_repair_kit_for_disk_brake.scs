@@ -1,0 +1,21 @@
+sc_node_not_relation->concept_repair_kit_for_disk_brake;;
+concept_repair_kit_for_disk_brake => nrel_main_idtf:
+[ремкомплект дискового тормоза](*<-lang_ru;;*);
+[repair kit for disk brake](*<-lang_en;;*);;
+
+concept_repair_kit_for_disk_brake <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(ремкомплект дискового тормоза)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Ремкомплект дискового тормоза</b> - совокупность деталей, запчастей, предназначенная для ремонта <sc_element sys_idtf="concept_brake_disk">дискового тормоза</sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);; *);;
+	   <=nrel_used_constants: concept_brake_disk;;
+     *);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_repair_kit_for_disk_brake;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_repair_kit_for_disk_brake.jpg";;
+		*);;
+	*);;

@@ -1,0 +1,41 @@
+concept_torsion
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_suspencion_type;;
+        ->concept_spring_post;;
+*);;
+=> nrel_main_idtf: [Опр.(торсион)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [торсион  - пружина в виде вала, работающего на кручение.](*<-lang_ru;;*);; 
+*);; 
+*);;
+
+concept_torsion
+<- rrel_key_sc_element: ...
+(*
+	->rrel_key_sc_element: 
+        concept_torsion;
+        concept_suspencion_type;
+        nrel_advantage;;
+        <-statement;;
+	<=nrel_sc_text_translation: ... 
+		(* 
+			-> rrel_example: [Торсион обеспечивает автомобилю ряд преимуществ, главным из которых является высокая плавность хода.](*<-lang_ru;;*);;
+		*);;
+	=>nrel_main_idtf: [Утв.(подвеска автомобиля*, торсион, преимущество*)](*<-lang_ru;;*);;
+	<-rrel_axiom:concept_IHS_by_car;;
+	<-concept_general_form_statement;;
+	*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_torsion;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/concept_torsion.jpg";;
+		*);;
+	*);;

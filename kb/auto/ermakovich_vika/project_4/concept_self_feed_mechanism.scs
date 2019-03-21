@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_self_feed_mechanism;;
+concept_self_feed_mechanism => nrel_main_idtf:
+[механизм самоподвода](*<-lang_ru;;*);
+     [self-feed mechanism](*<-lang_en;;*);;
+
+concept_self_feed_mechanism <-rrel_key_sc_element: ...
+(*
+<- definition;;
+<=nrel_used_constants: ... 
+	(*
+		->concept_brake_pad;; 
+		->concept_brake_drum;;
+	*);;
+=> nrel_main_idtf: [Опр.(механизм самоподвода)](*<-lang_ru;;*);; 
+<= nrel_sc_text_translation:...
+(* 
+		-> rrel_example:
+		[<b>Механизм самоподвода</b> - механизм, который предназначается для разведения износившихся <sc_element sys_idtf="concept_brake_pad">тормозных колодок</sc_element> ближе к рабочей поверхности <sc_element sys_idtf="concept_brake_drum">барабана</sc_element>. ](*<-lang_ru;; => nrel_format: format_html;;*);; 
+*);; 
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_self_feed_mechanism;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/concept_self_feed_mechanism.jpg";;
+		*);;
+	*);;
+
+
+
+

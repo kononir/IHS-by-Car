@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_faulty_cabin_filter;;
+concept_faulty_cabin_filter => nrel_main_idtf:
+[неисправный салонный фильтр](*<-lang_ru;;*);
+     [faulty cabin filter](*<-lang_en;;*);;
+concept_faulty_cabin_filter=>nrel_smell: concept_dampness;;
+concept_faulty_cabin_filter <-concept_defect;;

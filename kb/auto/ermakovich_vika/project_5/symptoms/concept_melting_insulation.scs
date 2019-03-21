@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_melting_insulation;;
+concept_melting_insulation => nrel_main_idtf:
+[плавящаяся изоляция](*<-lang_ru;;*);
+     [melting insulation](*<-lang_en;;*);;
+concept_melting_insulation <-concept_smell;;

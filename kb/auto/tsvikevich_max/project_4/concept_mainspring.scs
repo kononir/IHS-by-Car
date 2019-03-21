@@ -1,0 +1,53 @@
+concept_mainspring
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_suspencion_type;;
+        ->concept_car;;
+*);;
+=> nrel_main_idtf: [Опр.(пружина)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [пружина  - устройство для гашения колебаний и поглощения толчков и ударов подвижных элементов автомобиля.](*<-lang_ru;;*);; 
+*);; 
+*);;
+
+concept_mainspring
+<- rrel_key_sc_element: ...
+(*
+	->rrel_key_sc_element:
+	concept_mainspring_rigid;
+        concept_mainspring;
+        concept_mainspring_soft;;
+	<-statement;;
+	<=nrel_sc_text_translation: ... 
+		(* 
+			-> rrel_example: [
+			Пружина автомобиля по жесткости делится на 2 вида:
+
+			1. мягкая пружина;
+
+            2. жесткая пружина.](*<-lang_ru;;*);;
+		*);;
+	=>nrel_main_idtf: [Утв.(пружина, мягкая пружина, жесткая пружина)](*<-lang_ru;;*);;
+	<-rrel_axiom:concept_IHS_by_car;;
+	<-concept_general_form_statement;;
+	*);;
+
+concept_mainspring <= nrel_subdividing: ...
+(*
+->concept_mainspring_rigid;;  
+->concept_mainspring_soft;;
+=> nrel_main_idtf: [Разбиение по признаку жесткости](* <- lang_ru;; *);;
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_mainspring;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/concept_mainspring.jpg";;
+		*);;
+	*);;

@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_vibration;;
+concept_vibration => nrel_main_idtf:
+[вибрация](*<-lang_ru;;*);
+     [vibration](*<-lang_en;;*);;
+concept_vibration <-concept_car_behavior;;

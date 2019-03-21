@@ -1,0 +1,21 @@
+sc_node_not_relation->concept_repair_kit_for_vacuum_pump;;
+concept_repair_kit_for_vacuum_pump => nrel_main_idtf:
+[ремкомплект вакуумных усилителей тормозов](*<-lang_ru;;*);
+[repair kit for vacuum pump](*<-lang_en;;*);;
+
+concept_repair_kit_for_vacuum_pump <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(ремкомплект вакуумных усилителей тормозов)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Ремкомплект вакуумных усилителей тормозов</b> - совокупность деталей, запчастей, предназначенная для ремонта <sc_element sys_idtf="concept_vacuum_brake_booster">вакуумного усилителя тормозов</sc_element>.](* <- lang_ru;;  => nrel_format: format_html;;*);; *);;
+	   <=nrel_used_constants: concept_vacuum_brake_booster;;
+     *);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_repair_kit_for_vacuum_pump;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_repair_kit_for_vacuum_pump.jpg";;
+		*);;
+	*);;

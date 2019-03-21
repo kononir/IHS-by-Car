@@ -1,0 +1,21 @@
+sc_node_not_relation->concept_brake_tape;;
+concept_brake_tape => nrel_main_idtf:
+[тормозная лента](*<-lang_ru;;*);
+[brake tape](*<-lang_en;;*);;
+
+concept_brake_tape <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(тормозная лента)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Тормозная лента</b> - важный компонент, учавствующий в <sc_element sys_idtf="concept_braking">торможении</sc_element> и служащий для кратковременной блокировки элементов механизма автоматической коробки передач.](* <- lang_ru;; => nrel_format: format_html;; *);; *);;
+	  <=nrel_used_constants: concept_braking;;
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_brake_tape;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_brake_tape.jpg";;
+		*);;
+	*);;

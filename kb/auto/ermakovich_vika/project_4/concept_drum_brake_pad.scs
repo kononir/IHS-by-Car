@@ -1,0 +1,24 @@
+sc_node_not_relation->concept_drum_brake_pad;;
+concept_drum_brake_pad => nrel_main_idtf:
+[барабанная тормозная колодка](*<-lang_ru;;*);
+[drum brake pad](*<-lang_en;;*);;
+
+concept_drum_brake_pad <= nrel_inclusion: concept_brake_pad;;
+
+concept_drum_brake_pad <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(барабанная тормозная колодка)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [Барабанные тормозные колодки - <sc_element sys_idtf="concept_brake_pad">тормозные колодки</sc_element> <sc_element sys_idtf="concept_brake_drum">барабанных тормозов</sc_element>.](* <- lang_ru;;  => nrel_format: format_html;;*);; *);;
+	   <=nrel_used_constants: concept_brake_pad;  concept_brake_drum;;
+     *);;
+	
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_drum_brake_pad;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_drum_brake_pad.jpg";;
+		*);;
+	*);;
+

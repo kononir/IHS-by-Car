@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_faulty_air_conditioner;;
+concept_faulty_air_conditioner => nrel_main_idtf:
+[неисправный кондиционер](*<-lang_ru;;*);
+     [faulty air conditioner](*<-lang_en;;*);;
+concept_faulty_air_conditioner=>nrel_smell: concept_cinder;;
+concept_faulty_air_conditioner <-concept_defect;;

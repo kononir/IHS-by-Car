@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_squealing_under_the_hood;;
+concept_squealing_under_the_hood => nrel_main_idtf:
+[визжание под копотом](*<-lang_ru;;*);
+     [squealing under the hood](*<-lang_en;;*);;
+concept_squealing_under_the_hood <-concept_sound;;

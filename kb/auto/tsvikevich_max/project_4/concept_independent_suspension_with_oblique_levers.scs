@@ -1,0 +1,14 @@
+concept_independent_suspension_with_oblique_levers <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+		->concept_axis;;
+        ->concept_independent_suspension;;
+*);;
+=> nrel_main_idtf: [Опр.(независимая подвеска с косыми рычагами)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [независимая подвеска с косыми рычагами - тип независимой подвески, при которой ось качания расположена диагонально по отношению к продольной оси автомобиля.](*<-lang_ru;;*);; 
+*);; 
+*);;

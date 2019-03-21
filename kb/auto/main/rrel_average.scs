@@ -1,0 +1,4 @@
+sc_node_role_relation->rrel_average;;
+rrel_average => nrel_main_idtf:
+[среднее значение'](*<-lang_ru;;*);
+	[average'](*<-lang_en;;*);;

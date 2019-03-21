@@ -1,0 +1,25 @@
+concept_axle
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_car;;
+        ->concept_wheel;;
+        ->concept_axis;;
+*);;
+=> nrel_main_idtf: [Опр.(мост)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [мост - агрегат колёсной или гусеничной машины, соединяющий между собой колёса одной оси.](*<-lang_ru;;*);; 
+*);; 
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_axle;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/concept_axle.jpg";;
+		*);;
+	*);;

@@ -1,0 +1,89 @@
+sc_node_not_relation -> concept_relation;;
+concept_relation => nrel_main_idtf:
+[отношение](*<-lang_ru;;*);
+     [relation](*<-lang_en;;*);;
+
+concept_relation=>nrel_inclusion:concept_oriented_relation;;
+concept_relation=>nrel_inclusion:concept_non_oriented_relation;;
+concept_relation=>nrel_inclusion:concept_quasybinary_relation;;
+concept_relation=>nrel_inclusion: concept_binari_relation
+(*
+    =>nrel_inclusion:concept_symmetric_relation;;
+    =>nrel_inclusion:concept_transitive_relation;;
+    =>nrel_inclusion:concept_reflexive_relation;;
+    =>nrel_inclusion:concept_antisymmetric_relation;;
+    =>nrel_inclusion:concept_antitransitive_relation;;
+    =>nrel_inclusion:concept_antireflexive_relation;;
+*);;
+
+
+sc_node_not_relation -> concept_binari_relation;;
+concept_binari_relation => nrel_main_idtf:
+[бинарное отношение](*<-lang_ru;;*);
+ [binari relation](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_oriented_relation;;
+concept_oriented_relation => nrel_main_idtf:
+[ориентированное отношение](*<-lang_ru;;*);
+ [oriented relation](*<-lang_en;;*);;
+ 
+sc_node_not_relation -> concept_non_oriented_relation;;
+concept_non_oriented_relation => nrel_main_idtf:
+[неориентированное отношение](*<-lang_ru;;*);
+ [non oriented relation](*<-lang_en;;*);;
+ 
+sc_node_not_relation -> concept_quasybinary_relation;;
+concept_quasybinary_relation => nrel_main_idtf:
+[квазибинарное отношение](*<-lang_ru;;*);
+ [quasybinary relation](*<-lang_en;;*);;
+ 
+sc_node_not_relation -> concept_symmetric_relation;;
+concept_symmetric_relation => nrel_main_idtf:
+[симметричное отношение](*<-lang_ru;;*);
+ [symmetric relation](*<-lang_en;;*);;
+ 
+sc_node_not_relation -> concept_transitive_relation;;
+concept_transitive_relation => nrel_main_idtf:
+[транзитивное отношение](*<-lang_ru;;*);
+ [transitive relation](*<-lang_en;;*);;
+ 
+sc_node_not_relation -> concept_antisymmetric_relation;;
+concept_antisymmetric_relation => nrel_main_idtf:
+[антисимметричное отношение](*<-lang_ru;;*);
+ [antisymmetric relation](*<-lang_en;;*);;
+ 
+sc_node_not_relation -> concept_antitransitive_relation;;
+concept_antitransitive_relation => nrel_main_idtf:
+[антитранзитивное отношение](*<-lang_ru;;*);
+ [antitransitive relation](*<-lang_en;;*);;
+ 
+sc_node_not_relation -> concept_antireflexive_relation;;
+concept_antireflexive_relation => nrel_main_idtf:
+[антирефлексивное отношение](*<-lang_ru;;*);
+ [antireflexive relation](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_statement_of_the_defining_type;;
+concept_statement_of_the_defining_type => nrel_main_idtf:
+[утверждение определяющего типа](*<-lang_ru;;*);
+    [statement of the defining type](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_general_form_statement;;
+concept_general_form_statement => nrel_main_idtf:
+[утверждение общего вида](*<-lang_ru;;*);
+    [general form statement](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_statement_about_definite_assignment;;
+concept_statement_about_definite_assignment => nrel_main_idtf:
+[утверждение об однозначном задании](*<-lang_ru;;*);
+    [statement about definite assignment](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_axiom;;
+rrel_axiom => nrel_main_idtf:
+[аксиома'](* <- lang_ru;; *);
+[axiom'](* <- lang_en;; *);;
+ 
+sc_node_role_relation -> rrel_theorem;;
+rrel_theorem => nrel_main_idtf:
+[теорема'](* <- lang_ru;; *);
+[theorem'](* <- lang_en;; *);;
+

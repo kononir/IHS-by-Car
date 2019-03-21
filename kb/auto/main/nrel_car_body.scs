@@ -1,0 +1,38 @@
+ 
+nrel_car_body <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_using_constants: ...
+(*
+->concept_passenger;;
+->nrel_composite_part;;
+->concept_cargo;;
+->concept_car;;
+*);;
+=> nrel_main_idtf: [Опр.(кузов автомобиля*)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+    (*
+        -> rrel_example: [Кузов автомобиля* - это часть автомобиля, предназначенная для размещения груза либо пассажиров.](*<-lang_ru;;*);; 
+*);; 
+*);;
+
+nrel_car_body <- rrel_key_sc_element: ... 
+     (*
+        ->rrel_key_sc_element: concept_car;;
+        ->rrel_key_sc_element: concept_panel;;
+        ->rrel_key_sc_element: nrel_welding;;
+        ->statement;;
+        <=nrel_sc_text_translation: ... (* -> [Кузов современного легкового автомобиля обычно состоит из отдельных панелей, соединённых сваркой.](*<-lang_ru;;*);; *);;
+        =>nrel_main_idtf: [Утв.(кузов автомобиля*, автомобиль, панель, сварка*)](*<-lang_ru;;*);;
+	   <-rrel_axiom:concept_IHS_by_car;;
+	   <-concept_general_form_statement;;
+     *);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: nrel_car_body;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/nrel_car_body.jpg";;
+		*);;
+	*);; 

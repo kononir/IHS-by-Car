@@ -1,0 +1,30 @@
+sc_node_not_relation->concept_braking_tube;;
+concept_braking_tube => nrel_main_idtf:
+[тормозная трубка](*<-lang_ru;;*);
+[braking tube](*<-lang_en;;*);;
+
+concept_braking_tube <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(тормозная трубка)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Трубка тормозная</b> - одна из важнейших составляющих элементов безопасности автомобиля, которая передает без потерь давление от <sc_element sys_idtf="concept_brake_master_cylinder">главного тормозного цилиндра</sc_element> к <sc_element sys_idtf="concept_weel_brake_cylinder">колесным тормозным цилиндрам</sc_element>, которые в свою очередь, передают его <sc_element sys_idtf="concept_brake_pad">тормозным колодкам</sc_element>, вжимая их в барабан колеса, что и приводит к <sc_element sys_idtf="concept_braking">торможению</sc_element> машины.](* <- lang_ru;; => nrel_format: format_html;;*);; *);;
+	   <=nrel_used_constants: concept_braking; concept_brake_pad; concept_weel_brake_cylinder; concept_brake_master_cylinder;;
+     *);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_braking_tube;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_6161_100M.jpg";;
+		*);;
+	*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_braking_tube;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_braking_tube.jpg";;
+		*);;
+	*);;

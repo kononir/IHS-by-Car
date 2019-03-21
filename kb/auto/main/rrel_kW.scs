@@ -1,0 +1,29 @@
+sc_node_role_relation -> rrel_kW;;
+rrel_kW => nrel_main_idtf:
+[киловатт'](* <- lang_ru;; *);
+[kilowatt'](* <- lang_en;; *);;
+rrel_kW => nrel_idtf:
+[кВт'](* <- lang_ru;; *);
+    [kW'](* <- lang_en;; *);;
+
+rrel_kW<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf: [Опр.(киловатт')]  (* <- lang_ru;; *);;
+	<- definition;;
+    <= nrel_using_constants:...
+	(*
+		-> rrel_measure_in_SI;;
+        -> concept_power;;
+		-> rrel_W;;
+	*);;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Киловатт - единица измерения мощности электрического тока, равная 1000 ватт.](* <- lang_ru;; *);;
+		*);;
+*);;
+
+//задание коэффициента конвертирования*
+1000 <= nrel_conversion_rate: (rrel_kW => rrel_W);;

@@ -1,0 +1,31 @@
+sc_node_not_relation->concept_vacuum_brake_booster ;;
+concept_vacuum_brake_booster => nrel_main_idtf:
+[вакуумный усилитель тормозов](*<-lang_ru;;*);
+[vacuum brake booster](*<-lang_en;;*);;
+
+concept_vacuum_brake_booster <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(вакуумный усилитель тормозов)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Вакуумный усилитель тормозов</b> - является самым распространенным видом усилителя, который применяется в <sc_element sys_idtf="concept_braking_system">тормозной системе</sc_element> современного автомобиля и создает дополнительное усилие на <sc_element sys_idtf="concept_brake_pedal">педали тормоза </sc_element>за счет разряжения.](* <- lang_ru;;  => nrel_format: format_html;;*);; *);;
+	   <=nrel_used_constants: concept_brake_pedal;  concept_braking_system;;
+     *);;
+
+concept_vacuum_brake_booster <- rrel_key_sc_element: ... 
+     (*
+        ->rrel_key_sc_element: nrel_pressure; concept_braking_system; concept_brake_cylinder;;
+        <-statement;;
+        <=nrel_sc_text_translation: ... (* -> [<b>Вакуумный усилитель тормозов</b> помогает водителю толкать шток <sc_element sys_idtf="concept_brake_cylinder">тормозного цилиндра</sc_element>, для создания <sc_element sys_idtf="nrel_pressure">давления</sc_element> в <sc_element sys_idtf="concept_braking_system">тормозной системе</sc_element>.](*<-lang_ru;; => nrel_format: format_html;;*);; *);;
+        =>nrel_main_idtf: [Утв.(тормозная система, тормозной цилиндр, давление*)](*<-lang_ru;;*);;
+	   <-rrel_axiom:concept_IHS_by_car;;
+	   <-concept_statement_of_the_defining_type;;
+	*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_vacuum_brake_booster;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_vacuum_brake_booster.jpg";;
+		*);;
+	*);;

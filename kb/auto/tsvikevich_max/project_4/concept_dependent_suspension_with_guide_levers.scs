@@ -1,0 +1,15 @@
+concept_dependent_suspension_with_guide_levers <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+		->concept_lever;;
+        ->concept_dependent_suspension;;
+        ->concept_axle;;  
+*);;
+=> nrel_main_idtf: [Опр.(зависимая подвеска с направляющими рычагами)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [зависимая подвеска с направляющими рычагами - тип зависимой подвески, рычаги которой жёстко и предсказуемо задают движение ведущего моста по всем направлениям — вертикальном, продольном и боковом.](*<-lang_ru;;*);; 
+*);; 
+*);;

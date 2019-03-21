@@ -1,0 +1,14 @@
+concept_spring_three_quarter_elliptical
+<- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+        ->concept_spring;;
+*);;
+=> nrel_main_idtf: [Опр.(три четверти-эллиптическая рессора)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [три четверти-эллиптическая рессора - тип рессоры, который имеет форму трёх четвертей эллипса.](*<-lang_ru;;*);; 
+*);; 
+*);;

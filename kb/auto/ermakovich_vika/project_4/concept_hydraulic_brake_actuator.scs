@@ -1,0 +1,21 @@
+sc_node_not_relation->concept_hydraulic_brake_actuator;;
+concept_hydraulic_brake_actuator => nrel_main_idtf:
+[гидравлический тормозной привод](*<-lang_ru;;*);
+[hydraulic brake actuator](*<-lang_en;;*);;
+
+concept_hydraulic_brake_actuator <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(гидравлический тормозной привод)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Гидравлический тормозной привод</b> - основной тип привода в <sc_element sys_idtf="concept_working_braking_system">рабочей тормозной системе</sc_element>, включает в себя совокупность устройств, предназначенных для передачи усилия, создаваемого водителем на педале или рычаге, к тормозным механизмам.](* <- lang_ru;; => nrel_format: format_html;; *);; *);;
+	  <=nrel_used_constants: concept_working_braking_system;;
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_hydraulic_brake_actuator;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_hydraulic_brake_actuator.jpg";;
+		*);;
+	*);;

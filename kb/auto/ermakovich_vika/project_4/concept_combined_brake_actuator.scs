@@ -1,0 +1,22 @@
+sc_node_not_relation->concept_combined_brake_actuator;;
+concept_combined_brake_actuator => nrel_main_idtf:
+[комбинированный тормозной привод](*<-lang_ru;;*);
+[combined brake actuator](*<-lang_en;;*);;
+
+concept_combined_brake_actuator <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(комбинированный тормозной привод)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Комбинированный тормозной привод</b> представляет собой комбинацию нескольких типов <sc_element sys_idtf="concept_brake_actuator">привода</sc_element>, например, электропневманический привод.](* <- lang_ru;; => nrel_format: format_html;; *);; *);;
+	  <=nrel_used_constants: concept_brake_actuator;;
+*);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_combined_brake_actuator;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_combined_brake_actuator.jpg";;
+		-> "file://content/concept_combined_brake_actuator1.jpg";;
+		*);;
+	*);;

@@ -1,0 +1,54 @@
+sc_node_not_relation -> concept_type_of_front_brakes;;
+concept_type_of_front_brakes => nrel_main_idtf:
+[тип передних тормозов](*<-lang_ru;;*);
+     [type of front brakes](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_type_of_front_brakes;;
+
+
+concept_type_of_front_brakes <-rrel_key_sc_element: ...
+(*
+<- definition;;
+<=nrel_used_constants: ... 
+	(*
+		->concept_braking_gear;;
+	*);;
+=> nrel_main_idtf: [Опр.(тип передних тормозов)](*<-lang_ru;;*);; 
+<= nrel_sc_text_translation:...
+(*
+		-> rrel_example:
+		[<b>Тип передних тормозов</b> - разновидность тормозных механизмов на передних колесах автомобиля.](*<-lang_ru;; => nrel_format: format_html;;*);; 
+*);;
+*);;
+
+sc_node_not_relation -> concept_disk;;
+concept_disk => nrel_main_idtf:
+[дисковые](*<-lang_ru;;*);
+	[disk](*<-lang_en;;*);;
+
+concept_type_of_front_brakes <- rrel_key_sc_element: ... 
+     (*
+        ->rrel_key_sc_element: concept_disk;;
+        <-statement;;
+        <=nrel_sc_text_translation: ... (* -> [
+		Типы передних тормозов:
+
+- дисковые;
+
+		](*<-lang_ru;;*);; *);;
+        =>nrel_main_idtf: [Утв.(дисковые)](*<-lang_ru;;*);;
+	   <-rrel_axiom:concept_IHS_by_car;;
+	   <-concept_general_form_statement;;
+     *);;
+
+
+concept_type_of_front_brakes->rrel_example: ...;;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_type_of_front_brakes;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: "file://content/disk.jpg";;
+		*);;
+	*);;

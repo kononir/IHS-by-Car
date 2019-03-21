@@ -1,0 +1,9 @@
+sc_node_not_relation -> concept_engine_trouble;;
+concept_engine_trouble => nrel_main_idtf:
+[неисправность двигателя](*<-lang_ru;;*);
+     [engine trouble](*<-lang_en;;*);;
+concept_engine_trouble <-  concept_defect;;
+concept_engine_trouble=>nrel_sound: concept_whistle_under_the_hood;;
+concept_engine_trouble=>nrel_car_behavior: concept_impacts;;
+concept_engine_trouble=>nrel_car_state: concept_many_warning_signs_on_the_dashboard;;
+concept_engine_trouble=>nrel_car_behavior: concept_consumes_a_lot_of_oil;;

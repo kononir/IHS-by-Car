@@ -1,0 +1,29 @@
+sc_node_not_relation->concept_band_brake;;
+concept_band_brake => nrel_main_idtf:
+[ленточный тормоз](*<-lang_ru;;*);
+[band-brake](*<-lang_en;;*);;
+
+concept_band_brake <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(ленточный тормоз)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Ленточный тормоз</b> - тормоз, в котором торможение достигается «охватом» <sc_element sys_idtf="concept_brake_drum">барабана</sc_element> гибкой металлической <sc_element sys_idtf="concept_brake_tape">тормозной лентой</sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);; *);;
+	  <=nrel_used_constants: concept_brake_tape;;
+*);;
+concept_band_brake <-rrel_key_sc_element: ... 
+     (*
+        ->rrel_key_sc_element: concept_brake_tape; concept_brake_drum;;
+        <- statement;;
+        <=nrel_sc_text_translation: ... (*-> [<b>Ленточный тормоз</b>: гибкая металлическая <sc_element sys_idtf="concept_brake_tape">лента</sc_element> охватывает снаружи <sc_element sys_idtf="concept_brake_drum">тормозной барабан</sc_element> и, будучи натянутой через систему рычагов, останавливает его вращение.](*<-lang_ru;; => nrel_format: format_html;;*);; *);;
+        => nrel_main_idtf: [Утв.(тормозная лента, тормозной барабан)] (* <- lang_ru;; *);;
+		<-rrel_axiom:concept_IHS_by_car;;
+	   <-concept_statement_of_the_defining_type;;
+      *);;
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_band_brake;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_band_brake.jpg";;
+		*);;
+	*);;

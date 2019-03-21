@@ -1,0 +1,30 @@
+sc_node_not_relation -> concept_driving_feeling;;
+concept_driving_feeling => nrel_main_idtf:
+[ощущение водителя](*<-lang_ru;;*);
+     [driving feeling](*<-lang_en;;*);;
+concept_driving_feeling => nrel_idtf:
+[признак ощущения водителя](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_car_state;;
+concept_car_state => nrel_main_idtf:
+[состояние авто](*<-lang_ru;;*);
+     [car state](*<-lang_en;;*);;
+concept_car_state => nrel_idtf:
+[признак состояния авто](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_car_behavior;;
+concept_car_behavior => nrel_main_idtf:
+[поведение авто](*<-lang_ru;;*);
+     [car behavior](*<-lang_en;;*);;
+concept_car_behavior => nrel_idtf:
+[признак поведения авто](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_sound;;
+concept_sound => nrel_main_idtf:
+[звук](*<-lang_ru;;*);
+     [sound](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_smell;;
+concept_smell => nrel_main_idtf:
+[запах](*<-lang_ru;;*);
+     [smell](*<-lang_en;;*);;

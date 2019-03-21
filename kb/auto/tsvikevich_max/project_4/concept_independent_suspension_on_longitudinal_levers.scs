@@ -1,0 +1,15 @@
+concept_independent_suspension_on_longitudinal_levers <- rrel_key_sc_element:...
+(*
+<- definition;;
+<= nrel_used_constants: ...
+(*
+		->concept_wheel;;
+        ->concept_independent_suspension;;
+		->concept_lever;;  
+*);;
+=> nrel_main_idtf: [Опр.(независимая подвеска на продольных рычагах)](*<-lang_ru;;*);;
+<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: [независимая подвеска на продольных рычагах - тип независимой подвески, при которой два вильчатых рычага направляют качение колеса.](*<-lang_ru;;*);; 
+*);; 
+*);;

@@ -1,0 +1,12 @@
+sc_node_not_relation->concept_pneumatic_brake_actuator;;
+concept_pneumatic_brake_actuator => nrel_main_idtf:
+[пневматический тормозной привод](*<-lang_ru;;*);
+[pneumatic brake actuator](*<-lang_en;;*);;
+
+concept_pneumatic_brake_actuator <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(пневматический тормозной привод)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Пневматический тормозной привод</b> - тип <sc_element sys_idtf="concept_brake_actuator">тормозного привода</sc_element>, которой используется в грузовых автомобилях.](* <- lang_ru;; => nrel_format: format_html;; *);; *);;
+	  <=nrel_used_constants: concept_brake_actuator;;
+*);;

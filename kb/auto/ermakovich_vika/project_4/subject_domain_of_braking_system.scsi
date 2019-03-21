@@ -1,0 +1,60 @@
+subject_domain -> subject_domain_of_braking_system;;
+subject_domain_of_braking_system => nrel_main_idtf:
+[Предметная область тормозной системы](*<-lang_ru;;*);
+	[Subject domain of braking system](*<-lang_en;;*);;
+
+subject_domain_of_braking_system <= nrel_primary_elements_class_private_subject_domain: concept_IHS_by_car;;
+
+subject_domain_of_braking_system -> rrel_maximum_studied_object_class: concept_braking_system;;
+
+subject_domain_of_braking_system -> rrel_explored_relation: 
+nrel_braking_distance;
+nrel_pressure;
+nrel_brake_fluid_pressure;;
+
+subject_domain_of_braking_system -> rrel_not_maximum_studied_object_class:
+concept_brake_system_type;
+concept_parking_brake_system;
+concept_spare_braking_system;
+concept_working_braking_system;
+concept_type_of_rear_brakes;
+concept_type_of_front_brakes;
+concept_brake_drum;
+concept_brake_disk;
+concept_brake_pad;
+concept_drum_brake_pad;
+concept_disc_brake_pad;
+concept_calipers;
+concept_braking_tube;
+concept_brake_cylinder;
+concept_brake_hose;
+concept_anti_lock_braking_system;
+concept_vacuum_brake_booster;
+concept_brake_fluid;
+concept_repair_kit_for_vacuum_pump;
+concept_repair_kit_for_calipers;
+concept_repair_kit_for_brake_cylinders;
+concept_repair_kit_for_disk_brake;
+concept_repair_kit_for_brake_pad;
+concept_mounting_kits_of_brake_system;
+concept_piston_of_caliper;
+concept_brake_pad_sleeve;
+concept_hub;
+concept_brake_pedal;
+concept_brake_line;
+concept_band_brake;
+concept_brake_tape;
+concept_braking;
+concept_brake_actuator;
+concept_hydraulic_brake_actuator;
+concept_mechanical_brake_actuator;
+concept_pneumatic_brake_actuator;
+concept_combined_brake_actuator;
+concept_brake_shield;
+concept_supporting_pin_pads;
+concept_bridge;
+concept_compression_spring;
+concept_self_feed_mechanism;
+concept_shackle;
+concept_brake_master_cylinder;
+concept_wheel_brake_cylinder;;

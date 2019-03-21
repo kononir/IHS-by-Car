@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_electrical_system_overload;;
+concept_electrical_system_overload => nrel_main_idtf:
+[перегрузка электрической системы](*<-lang_ru;;*);
+     [electrical system overload](*<-lang_en;;*);;
+concept_electrical_system_overload=>nrel_smell: concept_melting_insulation;;
+concept_electrical_system_overload <-concept_defect;;

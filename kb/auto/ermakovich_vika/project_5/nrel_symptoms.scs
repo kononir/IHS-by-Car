@@ -1,0 +1,24 @@
+sc_node_norole_relation -> nrel_driving_feeling;;
+nrel_driving_feeling => nrel_main_idtf:
+[ощущение водителя*](*<-lang_ru;;*);
+     [driving feeling*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_car_state;;
+nrel_car_state => nrel_main_idtf:
+[состояние авто*](*<-lang_ru;;*);
+     [car state*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_car_behavior;;
+nrel_car_behavior => nrel_main_idtf:
+[поведение авто*](*<-lang_ru;;*);
+     [car behavior*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_sound;;
+nrel_sound => nrel_main_idtf:
+[звук*](*<-lang_ru;;*);
+     [sound*](*<-lang_en;;*);;
+
+sc_node_norole_relation -> nrel_smell;;
+nrel_smell => nrel_main_idtf:
+[запах*](*<-lang_ru;;*);
+     [smell*](*<-lang_en;;*);;

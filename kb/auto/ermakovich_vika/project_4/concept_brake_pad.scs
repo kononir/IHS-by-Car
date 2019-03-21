@@ -1,0 +1,46 @@
+sc_node_not_relation->concept_brake_pad;;
+concept_brake_pad => nrel_main_idtf:
+[тормозная колодка](*<-lang_ru;;*);
+[brake pad](*<-lang_en;;*);;
+	 
+concept_brake_pad <= nrel_subdividing: ...
+(*
+->concept_disc_brake_pad;;  
+->concept_concept_drum_brake_pad;;
+=> nrel_main_idtf: [Разбиение по типу тормозов](* <- lang_ru;; *);;
+*);;
+
+concept_brake_pad <- rrel_key_sc_element: ... 
+    (*
+       <- definition;;
+       => nrel_main_idtf: [Опр.(тормозная колодка)]  (* <- lang_ru;; *);;
+       <=nrel_sc_text_translation: ... (*-> [<b>Тормозная колодка</b> — часть <sc_element sys_idtf="concept_braking_system">тормозной системы</sc_element> и её основной рабочий компонент, который создаёт тормозное ускорение, за счёт взаимодействия с поверхностью катания колеса или <sc_element sys_idtf="concept_brake_disk">тормозного диска</sc_element> и преобразования силы нажатия в тормозной момент. ](* <- lang_ru;;  => nrel_format: format_html;;*);; *);;
+	   <=nrel_used_constants: concept_braking_system;  concept_brake_disk;;
+     *);;
+	 
+concept_brake_pad <-rrel_key_sc_element: ... 
+     (*
+        ->rrel_key_sc_element: concept_brake_disk; concept_braking_system;;
+        <- statement;;
+        <=nrel_sc_text_translation: ... (*-> [<b>Тормозная колодка</b> — это часть любой <sc_element sys_idtf="concept_braking_system">тормозной системы</sc_element>, которая взаимодействует с тормозной поверхностью поверхностью специального <sc_element sys_idtf="concept_brake_disk">тормозного диска</sc_element>, путем нажатия, при котором автомобиль теряет скорость и постепенно останавливается.](*<-lang_ru;; => nrel_format: format_html;;*);; *);;
+        => nrel_main_idtf: [Утв.(тормозная система, тормозной диск)] (* <- lang_ru;; *);;
+		<-rrel_axiom:concept_IHS_by_car;;
+	   <-concept_statement_of_the_defining_type;;
+      *);;
+
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_brake_pad;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_brake_pad.jpg";;
+		*);;
+	*);;
+illustration -> ...
+	(*
+	-> rrel_key_sc_element: concept_brake_pad;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://content/concept_brake_pad2.jpg";;
+		*);;
+	*);;

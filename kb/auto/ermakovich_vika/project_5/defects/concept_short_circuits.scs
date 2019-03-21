@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_short_circuits;;
+concept_short_circuits => nrel_main_idtf:
+[замыкание проводов](*<-lang_ru;;*);
+     [short circuits](*<-lang_en;;*);;
+concept_short_circuits=>nrel_smell: concept_melting_insulation;;
+concept_short_circuits <-concept_defect;;
