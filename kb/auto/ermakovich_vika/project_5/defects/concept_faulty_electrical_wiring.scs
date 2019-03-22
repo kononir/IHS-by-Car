@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_faulty_electrical_wiring;;
-concept_faulty_electrical_wiring => nrel_main_idtf:
-[неисправная электрическая проводка](*<-lang_ru;;*);
-     [faulty electrical wiring](*<-lang_en;;*);;
-concept_faulty_electrical_wiring=>nrel_smell: concept_cinder;;
-concept_faulty_electrical_wiring <-concept_defect;;

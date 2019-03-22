@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_clatter;;
-concept_clatter => nrel_main_idtf:
-[клацание](*<-lang_ru;;*);
-     [clatter](*<-lang_en;;*);;
-concept_clatter <-concept_sound;;

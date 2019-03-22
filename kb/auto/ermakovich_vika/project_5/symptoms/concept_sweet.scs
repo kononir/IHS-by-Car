@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_sweet;;
-concept_sweet => nrel_main_idtf:
-[сладкое](*<-lang_ru;;*);
-     [sweet](*<-lang_en;;*);;
-concept_sweet <-concept_smell;;

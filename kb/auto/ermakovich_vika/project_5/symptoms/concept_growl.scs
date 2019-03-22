@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_growl;;
-concept_growl => nrel_main_idtf:
-[рычание](*<-lang_ru;;*);
-     [growl](*<-lang_en;;*);;
-concept_growl <-concept_sound;;

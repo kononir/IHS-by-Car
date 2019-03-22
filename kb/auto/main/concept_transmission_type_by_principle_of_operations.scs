@@ -1,4 +1,0 @@
-sc_node_not_relation -> concept_transmission_type_by_principle_of_operations;;
-concept_transmission_type_by_principle_of_operations => nrel_main_idtf:
-[тип трансмиссии по принципу переключения](*<-lang_ru;;*);
-     [transmission type by principle of operations](*<-lang_en;;*);;

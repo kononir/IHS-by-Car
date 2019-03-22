@@ -1,4 +1,0 @@
-sc_node_not_relation -> concept_amount;;
-concept_amount => nrel_main_idtf:
-[величина](*<-lang_ru;;*);
-     [amount](*<-lang_en;;*);;

@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_defect_of_steering_tips;;
-concept_defect_of_steering_tips => nrel_main_idtf:
-[неисправность рулевых наконечников](*<-lang_ru;;*);
-     [defect of steering tips](*<-lang_en;;*);;
-concept_defect_of_steering_tips <-  concept_defect;;
-concept_defect_of_steering_tips=>nrel_sound: concept_clatter;;

@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_faulty_exhaust_system;;
-concept_faulty_exhaust_system => nrel_main_idtf:
-[неисправная система выпуска](*<-lang_ru;;*);
-     [faulty exhaust system](*<-lang_en;;*);;
-concept_faulty_exhaust_system=>nrel_smell: concept_exhaust;;
-concept_faulty_exhaust_system <-concept_defect;;

@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_faulty_CV_joint;;
-concept_faulty_CV_joint => nrel_main_idtf:
-[неисправный шрус](*<-lang_ru;;*);
-     [faulty CV joint](*<-lang_en;;*);;
-concept_faulty_CV_joint <-  concept_defect;;
-concept_faulty_CV_joint=>nrel_sound: concept_crack;;

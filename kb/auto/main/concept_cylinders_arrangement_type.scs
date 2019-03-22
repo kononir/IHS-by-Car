@@ -1,4 +1,0 @@
-sc_node_not_relation -> concept_cylinders_arrangement_type;;
-concept_cylinders_arrangement_type => nrel_main_idtf:
-[тип расположения цилиндров](*<-lang_ru;;*);
-     [cylinders arrangement type](*<-lang_en;;*);;

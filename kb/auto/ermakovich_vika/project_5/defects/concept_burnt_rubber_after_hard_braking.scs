@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_burnt_rubber_after_hard_braking;;
-concept_burnt_rubber_after_hard_braking => nrel_main_idtf:
-["горелая" резина после резкого торможения](*<-lang_ru;;*);
-     ["burnt" rubber after hard braking](*<-lang_en;;*);;
-concept_burnt_rubber_after_hard_braking=>nrel_smell: concept_cinder;;
-concept_burnt_rubber_after_hard_braking <-concept_defect;;

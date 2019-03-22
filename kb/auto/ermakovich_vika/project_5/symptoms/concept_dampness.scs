@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_dampness;;
-concept_dampness => nrel_main_idtf:
-[сырость](*<-lang_ru;;*);
-     [dampness](*<-lang_en;;*);;
-concept_dampness <-concept_smell;;

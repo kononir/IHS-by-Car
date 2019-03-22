@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_worn_alternator_belt;;
-concept_worn_alternator_belt => nrel_main_idtf:
-[изношенный ремень генератора](*<-lang_ru;;*);
-     [alternator belt](*<-lang_en;;*);;
-concept_worn_alternator_belt <-  concept_defect;;
-concept_worn_alternator_belt=>nrel_sound: concept_squealing_under_the_hood;;

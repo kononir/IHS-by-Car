@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_oil_leakage;;
-concept_oil_leakage => nrel_main_idtf:
-[утечка масла](*<-lang_ru;;*);
-     [oil leakage](*<-lang_en;;*);;
-concept_oil_leakage=>nrel_smell: concept_fuel;;
-concept_oil_leakage <-concept_defect;;
