@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_bearing_failure;;
-concept_bearing_failure => nrel_main_idtf:
-[неисправность подшипников колеса](*<-lang_ru;;*);
-     [bearing failure](*<-lang_en;;*);;
-concept_bearing_failure <-  concept_defect;;
-concept_bearing_failure=>nrel_sound: concept_metal_squeal;;

@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_silent_blocks_defect;;
-concept_silent_blocks_defect => nrel_main_idtf:
-[неисправность сайлентблоков](*<-lang_ru;;*);
-     [silent blocks defect](*<-lang_en;;*);;
-concept_silent_blocks_defect <-  concept_defect;;
-concept_silent_blocks_defect=>nrel_sound: concept_clatter;;

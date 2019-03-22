@@ -1,4 +1,0 @@
-sc_node_role_relation->rrel_highway;;
-rrel_highway => nrel_main_idtf:
-[трасса'](*<-lang_ru;;*);
-	[highway'](*<-lang_en;;*);;

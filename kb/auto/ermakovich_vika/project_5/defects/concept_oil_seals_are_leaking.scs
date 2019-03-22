@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_oil_seals_are_leaking;;
-concept_oil_seals_are_leaking => nrel_main_idtf:
-[протекают сальники](*<-lang_ru;;*);
-     [oil seals are leaking](*<-lang_en;;*);;
-concept_oil_seals_are_leaking=>nrel_smell: concept_fuel;;
-concept_oil_seals_are_leaking <-concept_defect;;

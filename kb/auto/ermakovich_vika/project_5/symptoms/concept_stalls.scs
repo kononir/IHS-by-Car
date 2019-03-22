@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_stalls;;
-concept_stalls => nrel_main_idtf:
-[глохнет](*<-lang_ru;;*);
-     [stalls](*<-lang_en;;*);;
-concept_stalls <-concept_car_behavior;;

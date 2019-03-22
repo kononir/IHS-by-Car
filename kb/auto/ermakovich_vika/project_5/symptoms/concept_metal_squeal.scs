@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_metal_squeal;;
-concept_metal_squeal => nrel_main_idtf:
-[металлический визг](*<-lang_ru;;*);
-     [metal squeal](*<-lang_en;;*);;
-concept_metal_squeal <-concept_sound;;

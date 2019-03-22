@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_increased_tire_wear;;
-concept_increased_tire_wear => nrel_main_idtf:
-[повышенный износ шин](*<-lang_ru;;*);
-     [increased tire wear](*<-lang_en;;*);;
-concept_increased_tire_wear<-concept_car_behavior;;

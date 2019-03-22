@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_increased_streering_force;;
-concept_increased_streering_force => nrel_main_idtf:
-[повышенное усилие руля](*<-lang_ru;;*);
-     [increased streering force](*<-lang_en;;*);;
-concept_increased_streering_force<-concept_driving_feeling;;

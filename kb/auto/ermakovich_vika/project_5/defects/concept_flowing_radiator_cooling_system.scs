@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_flowing_radiator_cooling_system;;
-concept_flowing_radiator_cooling_system => nrel_main_idtf:
-[течет радиатор системы охлаждения](*<-lang_ru;;*);
-     [flowing radiator cooling system](*<-lang_en;;*);;
-concept_flowing_radiator_cooling_system=>nrel_smell: concept_sweet;;
-concept_flowing_radiator_cooling_system <-concept_defect;;

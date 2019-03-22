@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_clogged_breather;;
-concept_clogged_breather => nrel_main_idtf:
-[засорился сапун](*<-lang_ru;;*);
-     [clogged breather](*<-lang_en;;*);;
-concept_clogged_breather=>nrel_smell: concept_fuel;;
-concept_clogged_breather <-concept_defect;;

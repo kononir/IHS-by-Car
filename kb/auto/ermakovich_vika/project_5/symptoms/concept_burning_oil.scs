@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_burning_oil;;
-concept_burning_oil => nrel_main_idtf:
-[горящее масло](*<-lang_ru;;*);
-     [burning oil](*<-lang_en;;*);;
-concept_burning_oil <-concept_smell;;

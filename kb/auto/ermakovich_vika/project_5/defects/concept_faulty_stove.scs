@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_faulty_stove;;
-concept_faulty_stove => nrel_main_idtf:
-[неисправная печка](*<-lang_ru;;*);
-     [faulty stove](*<-lang_en;;*);;
-concept_faulty_stove=>nrel_smell: concept_cinder;;
-concept_faulty_stove <-concept_defect;;

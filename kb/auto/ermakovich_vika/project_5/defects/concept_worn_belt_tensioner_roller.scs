@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_worn_belt_tensioner_roller;;
-concept_worn_belt_tensioner_roller => nrel_main_idtf:
-[изношенный ролик натяжителя ремня](*<-lang_ru;;*);
-     [worn belt tensioner roller](*<-lang_en;;*);;
-concept_worn_belt_tensioner_roller <-  concept_defect;;
-concept_worn_belt_tensioner_roller=>nrel_sound: concept_squealing_under_the_hood;;

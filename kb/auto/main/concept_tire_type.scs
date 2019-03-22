@@ -1,4 +1,0 @@
-sc_node_not_relation -> concept_tire_type;;
-concept_tire_type => nrel_main_idtf:
-[тип шины](*<-lang_ru;;*);
-	[tire type](*<-lang_en;;*);;

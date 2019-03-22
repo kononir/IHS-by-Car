@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_cinder;;
-concept_cinder => nrel_main_idtf:
-[гарь](*<-lang_ru;;*);
-     [cinder](*<-lang_en;;*);;
-concept_cinder <-concept_smell;;

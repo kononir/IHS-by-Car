@@ -1,7 +1,0 @@
-sc_node_not_relation -> concept_malfunction_of_the_fuel_combustion;;
-concept_malfunction_of_the_fuel_combustion => nrel_main_idtf:
-[неисправность горения топлива](*<-lang_ru;;*);
-     [malfunction of the fuel combustion](*<-lang_en;;*);;
-concept_malfunction_of_the_fuel_combustion <-  concept_defect;;
-concept_malfunction_of_the_fuel_combustion=>nrel_sound: concept_whistle_under_the_hood;;
-concept_malfunction_of_the_fuel_combustion=>nrel_car_behavior: concept_impacts;;

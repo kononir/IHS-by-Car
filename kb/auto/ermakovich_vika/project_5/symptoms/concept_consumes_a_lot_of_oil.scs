@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_consumes_a_lot_of_oil;;
-concept_consumes_a_lot_of_oil => nrel_main_idtf:
-[потребляет много масла](*<-lang_ru;;*);
-     [consumes a lot of oil](*<-lang_en;;*);;
-concept_consumes_a_lot_of_oil <-concept_car_behavior;;

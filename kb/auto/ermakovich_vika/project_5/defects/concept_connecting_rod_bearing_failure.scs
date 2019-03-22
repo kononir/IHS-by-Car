@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_connecting_rod_bearing_failure;;
-concept_connecting_rod_bearing_failure => nrel_main_idtf:
-[неисправность шатунных подшипников](*<-lang_ru;;*);
-     [connecting rod bearing failure](*<-lang_en;;*);;
-concept_connecting_rod_bearing_failure=>nrel_sound: concept_rattle;;
-concept_connecting_rod_bearing_failure <-concept_defect;;

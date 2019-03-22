@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_wear_of_differentials;;
-concept_wear_of_differentials => nrel_main_idtf:
-[износ дифференциалов](*<-lang_ru;;*);
-     [wear of differentials](*<-lang_en;;*);;
-concept_wear_of_differentials=>nrel_sound: concept_howl;;
-concept_wear_of_differentials <-concept_defect;;

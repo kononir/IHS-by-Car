@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_wear_of_bearings_of_differential;;
-concept_wear_of_bearings_of_differential => nrel_main_idtf:
-[износ подшипников дифференциала](*<-lang_ru;;*);
-     [wear of bearings of differential](*<-lang_en;;*);;
-concept_wear_of_bearings_of_differential=>nrel_sound: concept_howl;;
-concept_wear_of_bearings_of_differential <-concept_defect;;

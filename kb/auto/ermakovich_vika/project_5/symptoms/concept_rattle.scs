@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_rattle;;
-concept_rattle => nrel_main_idtf:
-[дребезжание под капотом](*<-lang_ru;;*);
-     [rattle under the hood](*<-lang_en;;*);;
-concept_rattle <-concept_sound;;

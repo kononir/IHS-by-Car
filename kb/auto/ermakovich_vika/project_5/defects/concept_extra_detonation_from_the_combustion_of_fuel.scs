@@ -1,7 +1,0 @@
-sc_node_not_relation -> concept_extra_detonation_from_the_combustion_of_fuel;;
-concept_extra_detonation_from_the_combustion_of_fuel => nrel_main_idtf:
-[лишняя детонация при сжигании топлива](*<-lang_ru;;*);
-     [extra detonation from the combustion of fuel](*<-lang_en;;*);;
-concept_extra_detonation_from_the_combustion_of_fuel <-  concept_defect;;
-concept_extra_detonation_from_the_combustion_of_fuel=>nrel_sound: concept_whistle_under_the_hood;;
-concept_extra_detonation_from_the_combustion_of_fuel=>nrel_car_behavior: concept_impacts;;

@@ -1,6 +1,0 @@
-sc_node_not_relation -> concept_fuel_leak;;
-concept_fuel_leak => nrel_main_idtf:
-[утечка топлива](*<-lang_ru;;*);
-     [fuel leak](*<-lang_en;;*);;
-concept_fuel_leak=>nrel_smell: concept_fuel;;
-concept_fuel_leak <-concept_defect;;
