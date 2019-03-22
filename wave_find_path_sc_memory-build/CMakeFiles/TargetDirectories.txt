@@ -1,3 +1,0 @@
-/home/vlad/o/ostis/wave_find_path_sc_memory-build/CMakeFiles/edit_cache.dir
-/home/vlad/o/ostis/wave_find_path_sc_memory-build/CMakeFiles/rebuild_cache.dir
-/home/vlad/o/ostis/wave_find_path_sc_memory-build/CMakeFiles/wave.dir

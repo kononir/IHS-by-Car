@@ -32,8 +32,9 @@ clone_project()
 stage "Clone projects"
 
 clone_project https://github.com/ShunkevichDV/sc-machine.git sc-machine scp_stable
-clone_project https://github.com/Ivan-Zhukau/sc-web.git sc-web master
-clone_project https://github.com/ShunkevichDV/ims.ostis.kb.git ims.ostis.kb master
+clone_project https://github.com/kononir/IHS-by-car-sc-web.git sc-web master
+clone_project https://github.com/kononir/IHS-by-car-ims.ostis.kb.git ims.ostis.kb master
+clone_project https://github.com/kononir/IHS-by-car-ims.ostis.kb kb master
 
 stage "Prepare projects"
 
