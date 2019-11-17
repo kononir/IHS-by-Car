@@ -4,9 +4,9 @@ Intelegence help system by car (OSTIS project)
 Steps to run project:
 1) Install clean version of Ubuntu 16.04
 2) In terminal:
-  2.1) sudo apt-get update
-  2.2) sudo apt-get upgrade
-  2.3) sudo install git
+  a) sudo apt-get update
+  b) sudo apt-get upgrade
+  c) sudo install git
 3) Go to some folder and clone project
 4) Go to "scripts/" folder
 5) ./prepare.sh
