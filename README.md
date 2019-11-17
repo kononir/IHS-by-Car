@@ -12,7 +12,8 @@ Steps to run project:
 5) ./prepare.sh
 6) ./run.sh (to run sctp and scweb)
 
-If there is problem with "tornado", then type in terminal:
-- pip install numpy==1.16
+If there is problem with "tornado" package, then type in terminal:
+1) pip install tornado==5.1.1
+2) pip install numpy==1.14.6
 
 To rebuild base input "./build_kb.sh"
