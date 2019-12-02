@@ -1,1 +1,1 @@
-gnome-terminal --tab --command "sh run_build_and_sctp.sh" --tab --command "sh run_scweb.sh"
+gnome-terminal --tab --command "sh run_sctp.sh" --tab --command "sh run_scweb.sh"
